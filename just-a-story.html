@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            just-a-story | 
+        
+        五折叔的水稻田
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="五折,五折叔,肖康,流亡青年,Love">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: ;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="五折叔的水稻田">
+    <meta name="msapplication-starturl" content="http://www.wuzhe.me/just-a-story.html">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="五折叔的水稻田">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://www.wuzhe.me/just-a-story.html">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="just-a-story | 五折叔的水稻田">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="Love"> 
+
+    
+        <meta property="article:published_time" content="Mon Sep 07 2015 00:00:00 GMT+0800">
+        <meta property="article:modified_time" content="Wed Apr 18 2018 04:43:05 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="http://www.wuzhe.me/just-a-story.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://www.wuzhe.me/just-a-story.html",
+    "headline": "just-a-story",
+    "datePublished": "Mon Sep 07 2015 00:00:00 GMT+0800",
+    "dateModified": "Wed Apr 18 2018 04:43:05 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "五折",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "欢迎踏足五折叔的水稻田"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "五折叔的水稻田",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",Love五折,五折叔,肖康,流亡青年",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 25 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                just-a-story
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>五折</strong>
+        <span>9月 07, 2015</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Love/">Love</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=just-a-story&url=http://www.wuzhe.me/just-a-story.html&pic=http://www.wuzhe.me/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=五折叔的水稻田&title=just-a-story&summary=&pics=http://www.wuzhe.me/img/favicon.png&url=http://www.wuzhe.me/just-a-story.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>本故事<br>纯属虚构，如有雷同，特么巧合</p>
+<p>一个故事而已。</p>
+<p>我经常晚上睡不着，又特么经常很无聊。<br>就经常做奇葩的事儿</p>
+<p>比如大半夜炒菜</p>
+<p>看电视，也不知道那跟脑子搭错，看到电视里做一桌子菜，喉结一动，咽下口水。拿上钱包去楼下24便利店。西红柿鸡蛋葱一个菜，豆腐小葱一个菜，排骨冬瓜一个菜，黄瓜香菇一个菜，辣椒五花肉一个菜，黄花鱼芫荽一个菜。结账时收银小妹很诧异的看着我，心里一定想：卧槽，这特么日了狗了，大半夜买这么多菜。回家路上自言自语，卧槽，真特么有毛病啊我。进电梯，遇到一姑娘，长得很漂亮那种，穿得也很得体，不暴露但很有味儿。香水淡淡的，我特么穿个运动裤白T恤，真想一头撞死。<br>回到家，洗菜，择菜，切菜，配料，拼盘，分类，开始下锅。那会儿优酷上有个《日食记》，做饭间隙点根烟，贼拉酷。我也抽烟啊，刚好啊，就去找。凑，没有。<br>我有下去买包烟。我日啊，又遇到那姑娘。把我骚的啊。心想，以后不管什么时候都特么穿整齐，捯饬的人模狗样，就算不搭讪，也要让人有个好印象啊。<br>出电梯的时候，我没好意思出去，又按了-2，下地下室了。然后又上来。<br>然后，买烟的时候，那姑娘也在买烟。<br>我买十块的，人家卖二十的。<br>我心说，真是倒了血霉啊。<br>回到家，点上一根烟，抽的时候眯眼睛啊，别看视频上很悠闲，真的迷眼啊，我抽烟十年了啊。<br>第二个菜快炒好时，我特么才想起来，妈蛋啊！没盐啊。<br>我艹，不做了，明天再炒。</p>
+<p>其实我一直很热爱学习</p>
+<p>看书，记得看的是东野圭吾的《白夜行》。原本就断断续续的看，忘记是那一部分，应该是桐原亮司跟一个女护士发生关系，我靠，我无聊啊。跑到厕所撸一发。<br>撸完极度空虚，开启贤者模式，坐在马桶上抽三根烟。我也不知道为啥要抽三根烟。<br>抽完，我特么找出高中课本，先背《赤壁赋》，高中底子好，记忆很深。壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下，清风徐来水波不兴……<br>背到一半卡壳，掏出数学课本看排列组合跟概率，还特么兴致勃勃的翻出《三年模拟五年高考》做了几个大题，做完跟答案一队，全错。<br>然后看英语单词，anonymously，匿名的，ridiculous，荒谬的，cigrette，香烟。<br>不知不觉，半个多小时过去了。<br>我特么一看表，才半个多小时啊。<br>又去卫生间撸了一发。<br>撸完对着镜子，说：你能不能有点出息啊。丑的看不上，好的不敢上，搭讪都不敢。你还等着姑娘来上你吗？加油，赶紧再找一个。说着说着发现脸上有几个很小的突起。<br>迎着灯光挤脸上的脂肪粒，发现脸太油，就洗脸。洗完接着挤，挤半天没挤出来，脑子一抽，对着镜子开始做表情包。现在想想都特么想笑。</p>
+<p>玩游戏</p>
+<p>本人玩LOL，笔记本配置略低，经常关键时刻卡。游戏体验差，游戏里队友骂几句，就拿上钱包去网吧。<br>楼下有一家网吧，刚开业，进去一问，通宵25。<br>我凑，这么贵？<br>开个会员吧，五折，还冲一百送一百，这样下来很便宜。旁边那家大学附近才十块一晚上。<br>我算了一下，我就玩几把，花一百一冲个会员不划算。况且都半夜，还不优惠。<br>我就去大学附近的地方。比较远，有2公里吧。为了省钱，没打车。走着过去的。<br>到吧台，还没拿出钱包，网管说，满了。<br>撤。大学附近就宾馆跟网吧多。<br>满了。<br>满了。<br>满了。<br>满了。<br>五家网吧全特么满了。真是日了狗啊。<br>正准备走，一个人走到吧台说，网管，下机。<br>我凑，天不亡我啊。<br>我赶忙站旁边，拿出钱跟身份证。<br>这时，旁边一个猥琐的大学生，风驰电掣的拿出身份证，一边把爪子伸到吧台一边扭头对身后喊：嗨，大刘，帮我看着机子。<br>滴一声，他刷了卡。<br>我特么真想踹他啊。<br>这大学生越来越没素质。<br>回家路上骂道：撸死你个狗东西，人家开房你开黑。<br>想想那么远的路，打个车回家。<br>啥事儿没干，打车花了10块。</p>
+<p>我爱电梯爱科技</p>
+<p>无聊睡不着，什么也不想干。<br>就在门口转悠，还是无聊。就搭电梯，上到最顶层再下到最底层。<br>收拾打扮，还打发蜡，喷香水。<br>进电梯的时候，掏出手机看时间，半夜一点多。<br>其实，我心里还想着上次那个姑娘。万一遇上呢。<br>就是这么巧，还真特么遇上了。<br>可惜旁边有个男的。<br>两人说说笑笑的。我假装看楼层，用余光扫了那男的一眼。<br>跟我年纪差不多，比我白，比我帅。<br>问题是，穿得比我还得体。<br>我特么自以为很得体了，买衣服从来都是精挑细选，不要花色，不要装饰，简单大方。可特么人家就是比我穿得有气质。<br>人比人气死人啊。<br>到了18层，人家出电梯。18层有那种自营小卖部。<br>我一个人搭着电梯上上下下，不知多少次。<br>不断有人进出上下，我一个个打量他们。<br>有老少一对儿的，有年纪相仿的，有喝醉的，有打情骂俏的，有加班回来的，有穿着特暴露的。<br>他们离开电梯，我脑补他们将会去往什么地方，接下来要做什么。<br>正意淫的挺嗨呢，进来俩保安，对着对讲机说：1号1号，收到收到，是不是这里？看到我们没？<br>对讲机里刺啦刺啦响，1号收到1号收到，对，就是他。<br>保安盯着我说：走，跟我们到保卫室一趟。<br>我凑，我特么无聊坐个电梯还特么被监控注意啦。<br>我本能的反应道：我就这小区的，我坐电梯怎么了？说罢我掏出钥匙跟门禁卡。<br>保安坚持带我去保安室。<br>到了监控室，我生气的说，艹，你们调监控，看看1:30左右，我是不是从家门出来。××层××号。<br>保安就按我说的调出监控，一看，还真是。<br>我得理不饶人，说，我无聊坐电梯怎么了？我天天上下班，生脸熟脸还认不出啊？大半年了都。<br>保安连忙道歉，送我离开。<br>我进了电梯，盯着摄像头看，上上下下两三个来回才回去。</p>
+<p>起个名字吧</p>
+<p>《刘姑娘》<br>最后一个故事总结下结束吧。<br>之前从没找过小姐。<br>不久前，大学同学因工作关系，来我省出差。我就带他玩了一把。<br>我去，真真是体验到，原来性，特么不是只有一种姿势。A片里看过，但我谈过的女友都比较保守，也从来就用一种姿势。主要也是别的姿势累，有几次吧特别留意学了几个姿势，问题是特么提枪上场时，忘了。<br>那次体验后，算是知道原来还有这么多花样。<br>因为住的是高档小区，经常会有保洁、送水、各种服务人进入园区，会有人每家每户发些那种名片。你懂得。<br>我一开始都是随手扔的。<br>那天晚上无聊，就整理名片夹，发现有一张。<br>上面写的，纯情姑娘，模特，公主，大学学历。<br>没出息的我，拨号，挂机。再拨号，再挂机。<br>来来回回折腾十来次，还是不好意思。<br>也有点不敢。<br>你叫小姐来家里，万一人家敲诈你咋办。<br>抛硬币吧。<br>正面，叫。<br>反面，不叫。<br>扔到一半，电话响了。卧槽，吓死老子了。<br>一看是陌生号，忙拿出名片一对，我去，人家回过来了。<br>可能是某一次挂晚了，打过去了。<br>电话那边一男的说，你好，请问需要服务吗？<br>我装作很老练的样子问：都有神马服务啊？<br>胸推，油推，口爆，全套，姑娘都很漂亮，你要是不满意可以给我打电话，给换。<br>他说的那些词我虽说看名片都记住了，但具体什么服务还真不知道。上次同学来，人家是上来就开工，完工就撤人，我也不知道什么是什么啊。<br>我吭哧吭哧一会儿，说，那来吧。<br>正准备挂呢，听到那边说，你说地址啊。<br>我去，紧张的地址差点儿都忘了。<br>完了就是无尽的等待，想象来的姑娘长什么模样。<br>最好是特别漂亮那种。万一丑咋办？嗯，狠下心，换一个，反正可以先从猫眼看。<br>等了五六支烟功夫，一阵敲门声。<br>心慌意乱啊。我赶忙掏出数了N遍的钱。<br>打开门，姑娘吧，长得还可以，个子在1.70左右，穿着高跟鞋，看着跟我差不多高了都。<br>姑娘笑笑，站着说，我打车来的，70。<br>我去，我经常打车，打车发票都有一两千，我能不知道价格嘛。<br>有这么贵吗？你就算从最远的三环四环过来，也超不过四十吧。<br>姑娘笑笑说，那你随便给吧。<br>我说，现在就给吗？<br>姑娘说，嗯，做之前给。<br>我把钱给她，多一百。说，你找我六十。<br>姑娘说，没零的，我给你五十吧。<br>我心骂道，凑，打车费还要赚一道。</p>
+<p>进屋俩人都站着不说话，气氛有点儿尴尬。<br>头一次啊，我也不知道接下来该干嘛啊。我拿出烟说，抽烟吗？<br>姑娘放下包，说，你洗澡去。<br>我诧异的看着她说，我，洗澡？<br>姑娘说，对啊，都这样。<br>我心想，卧槽，你拿着我手机钱包跑了，我特么报警都不敢啊。新手机苹果4s刚买的啊。<br>姑娘开始脱衣服。<br>我艹，这阵仗我特么哪儿见过啊。女友那都是谈了很久，没有心理隔阂的。<br>我忙钻进卫生间，唰唰几下。完事儿还刷了刷牙。那会儿真特么单纯，还想亲人家。后来才知道人家不给亲的。</p>
+<p>我洗完出来，姑娘衣服还没脱完，很诧异的看着我说，这么快！洗完了？<br>我说，我天天洗澡的。<br>姑娘看我一眼说，看着像。<br>我郁闷的看她一眼说，什么叫看着像啊，就是好不好。<br>姑娘噗嗤笑了一下，脱下最后的衣服，站在床边。<br>我当时脑子都是木的。</p>
+<p>姑娘钻进被窝，我站出来，说，我开下空调。<br>回来我钻进被窝，把裤子内裤脱掉。<br>姑娘身子开始往下滑……</p>
+<p>在做的时候，我亲了她一下，她下意识的躲开。<br>嗨的时候抱着我，亲了我一下说，做我们这一行的，从来不亲人的。<br>我停下来，看着她，亲了她一下说，照这么说，你还赠送的咋地？我学的小沈阳的声音。<br>姑娘呵呵笑了笑说，指了指我一大摞的书说，你是干嘛的？<br>我反问，你叫什么？<br>姑娘不再说话，揽着我的腰。</p>
+<p>做完，姑娘说，用下卫生间可以吗？<br>我说，用呗。记得交水电费。<br>姑娘起身下床。我看着她光着的背影。<br>心想，这么好的姑娘，干这个，可惜了。</p>
+<p>很快姑娘出来，开始穿衣服。我看着她一件一件穿好。<br>姑娘那儿都好，就是那个包太俗气，烂大街的那种超级大俗包。</p>
+<p>我意犹未尽的说，走啊？<br>姑娘说，对啊，你出了就结束了。<br>我说，你之前发短信的号码是你的吗？<br>姑娘说，对，你再找我可以打这个电话，能便宜三百。<br>心想，我凑，良心皮条客啊，才抽三百。</p>
+<p>我感觉没做爽，但我知道再做肯定还要钱，哥出不起了啊。<br>就想发展一下，以后可以……<br>我说，你等下，我送送你。</p>
+<p>姑娘捂着嘴笑说，没见过你这么绅士的嫖客。<br>我一边穿裤子一边说，没见过你这么淑女的小……<br>话到嘴边，咽了下去。</p>
+<p>下到一层，我看见上次那个姑娘，两人打了个招呼。<br>我的心刷一下，跌入谷底。<br>最美好的相遇，最美好的回忆，双方给了最恶毒的见面礼。</p>
+<p>这世界真特么的黑色幽默。</p>
+<p>又在写又在写是不是嘴贱</p>
+<p>姑娘走没多久，心里真的挺念想。<br>男人吧，在没女友的时候，最容易多想也最容易不想。<br>我这个人，看到美女往往能够坚持一眼不看。<br>美女容易吸引目光，所以我逆着来反而不会给她自信。<br>我给她打电话，说，你走了吗？<br>对啊。<br>你上来陪我聊会天呗。<br>我跟姐们儿都坐上车了。改天吧，等有机会了吧。<br>我怅然挂掉电话。<br>这下可特么是真无聊啦，翻了一会儿手机，迷迷糊糊睡着了。</p>
+<p>白天工作忙起来，很容易就把这事儿忘掉，毕竟露水情缘，谁也不会在意，终究皮肉交易，转身就是一场离别，谁也不会再谁的生活里逗留。<br>可到了晚上，心里就痒痒。<br>找小姐这事儿，就怕来真感情。</p>
+<p>晚上拿着手机，几次想给她打电话，想想，这时候人家工作时间，除非你再叫一次。<br>想想价格不菲，就消了念头。<br>玩了几把LOL，跟同学打电话扯几句咸蛋。<br>同学告诉我他还有一个月就结婚了。<br>我凑，真特么背。<br>大学关系比较好，当时夸海口，结婚了送个大红包。<br>现在吹的牛，怎么治也得兑现。<br>心情烦闷，平时觉得特别难喝的红酒，咕咚咕咚喝了一瓶。<br>晕晕乎乎躺床上。</p>
+<p>中间过有半个月时间，打过两次电话，都被姑娘给推掉。<br>毕竟哥追过N多女生，成不成，几句话都能听出来。<br>遂不再念想。<br>用心追几个正儿八经的姑娘，毕竟她那种行业，跟朋友介绍都得过一下脑，怎么安排认识缘由，工作背景。</p>
+<p>大概是一个周末吧，我那天心情比较好，在小区花园里画水彩。<br>9月中旬，阳光特别明媚，暖身但不刺眼，风也刚刚好。<br>她打来电话。<br>我不知道她姓甚名谁。<br>电话里存的名字就是姑娘。</p>
+<p>hello，今天天气特好。<br>这一句开场问候让我印象极其极其好。<br>从来都是喂，在哪儿呐这种模板式的问候，第一次听到不一样的话，都会触动你的内心。<br>可是，她是一个小姐。</p>
+<p>哟，难得啊。<br>呵，我今天出来买东西，刚好逛到附近。<br>逛科技市场吗？怎么准备进军电商扩大经营啊。我开玩笑道。<br>姑娘啪把电话挂掉。</p>
+<p>心里猛一沉。<br>我凑，说错话了。<br>本人喜欢开玩笑，随时随地，一句话接到梗就会顺嘴跑火车。</p>
+<p>我忙回拨过去。<br>从头嘟嘟响到尾，一直没人接。<br>我收回电话，拿起画笔，手有点抖。<br>却又心头不甘。<br>接着打，打到第三遍才接。</p>
+<p>对不起，我开玩笑的，你听不出来吗？<br>电话那边只是人生嘈杂。<br>我去，不至于吧，多大点儿的事儿啊。至于吗？<br>还是不说话。<br>我了个擦，我错了行吗？你在哪个位置啊？我对一二一大街熟，你告诉我，别动，我去找你，中午请你吃饭行了吧！</p>
+<p>我在交通银行取款机。</p>
+<p>我喝，就是不一样啊，站都站在取款机旁边。<br>啪，又挂掉了。</p>
+<p>我真特么想扇自己巴掌。<br>我赶忙收拾好东西，放到保安室，飞奔向一二一。</p>
+<p>那天天真的特别好。<br>绿化工人在剪裁，空气里都是青草的味道。<br>我感觉，如果不是那天的天气，可能第一次挂掉电话，我们就此消失在这个城市，我对她只有思念，可能偶尔撸的时候会微微遗憾，她可能会在无数的会客中忘却。</p>
+<p>我气踹嘘嘘的跑到ATM机旁。老远就能看见她，一身浅绿色的衣服。<br>漂亮的姑娘，就像灯塔。在人海中，你总能一眼寻到。</p>
+<p>她画着有点浓的妆，拿着一个手包。颜色好看，但依旧俗气，很俗。<br>我喘着气说，我这人喜欢开玩笑，刚才的话你别放心上啊。<br>姑娘看着我说，我想买一款手机，你帮我推荐推荐。<br>我说，买苹果啊。苹果是手机中的经典，没有谁能超越。（个人理解而已）<br>姑娘幽怨的看我一眼说，之前就是。然后很小声的吐出一句，丢了。</p>
+<p>我瞬时明白，做她们这一行的，意外情况很多。<br>所以，说话的每一个不经意，都能触碰到痛点。<br>那就买个一般的，也好看也不至于太掉档次是吧。那就小米吧，便宜还非常好用，丢了也不心疼。<br>小米？手机吗？<br>是啊！这么火的手机，你别告诉我你没听说过啊！<br>姑娘缩着下巴点点头说，没听过。</p>
+<p>我去，你是有多孤陋寡闻啊，小米都没听过，那你听过啥啊？诺基亚，三星？<br>姑娘不理我，径直走进去。<br>我跟着说，大姐啊，你也太小心眼儿了吧，多大点儿事儿啊，这你也生气啊。</p>
+<p>姑娘转过身，随手撩了下刘海说，我没生气啊。就是嫌门口人多。<br>我拍拍胸口，假装大喘气说，吓得我心脏病都快出来了。<br>姑娘睁大眼睛说，你心脏有病啊？<br>我说，没啊。不是说被你吓的嘛。<br>姑娘推我一下。<br>我学着金庸小说里的情节，往后狠狠退了几步，然后跌倒在地。<br>姑娘扭头离开。<br>我忙起身追过去。<br>你就这么把我扔了啊？<br>姑娘说，这么多人，你不嫌丢人啊。<br>我讪讪的说，好吧好吧，我错了。</p>
+<p>九百多买了小米，白色的。姑娘挺喜欢。<br>电梯上，姑娘歪着头说，你说请我吃饭的。<br>我说，行。<br>姑娘说，这么大方？<br>我说，我帮你买手机，给你省几百大洋，你也不请我喝口水。想着你这么勤俭持家，那只好我破费喽。<br>姑娘没再说话。</p>
+<p>时间很早，不至于吃午饭。<br>就走着去万达。<br>路上有一搭没一搭的闲扯。都是些无关痛痒的话，我都回忆不起来。<br>到了万达，我说，先找个地儿坐吧，一会儿找吃的地儿。<br>姑娘点点头。</p>
+<p>我看了看，算了算钱包库存。<br>去星巴克吧。<br>姑娘点点头。</p>
+<p>我特么平时装逼，带客户去星巴克，都是客户点。<br>这次算是我第一次来星巴克，自己消费，毕竟有点心虚。<br>看着吧台上的消费名录表，有点儿晕。</p>
+<p>我心虚的瞟了一眼，说，一杯美式咖啡。然后问她，你要什么？<br>姑娘很认真的看了看说，我要一杯绿茶。<br>绿茶比我的便宜几块钱。<br>我也不好说什么。<br>然后就找位置。</p>
+<p>我俩就等着waiter送上来。<br>这时她突然翻起包来。只见她掏出一个很小的手机。<br>我才注意到，她有两个手机，算上刚买的，已经三个了。<br>她有点儿紧张的看着左右，然后看我一眼很小声的说，我今天在外边呢，嗯，嗯，然后一阵含混不清的话就挂掉电话。</p>
+<p>我大概知道是什么，接过服务生的咖啡跟茶，撕开焦糖一点一点搅拌。<br>姑娘拿着吸管，一点一点儿的喝。</p>
+<p>气氛很尴尬。<br>我不知道要说什么。<br>姑娘也心思神游的想着什么。</p>
+<p>我喝一口咖啡。<br>我凑，真特么难喝啊。<br>真的，不是我口味差，而是真难喝。<br>姑娘看我皱着眉说，难喝吧。<br>我点点头，想着是吐出来呢还是咽下去。<br>姑娘说，星巴克的美式跟拿铁最难喝。</p>
+<p>我擦擦嘴问，你常来啊。<br>姑娘说，也不怎么来，偶尔逛街的时候会来坐坐。<br>万达都常来，土豪啊，我们做朋友吧。<br>姑娘笑笑说，你才土豪呢。一千多一晚上你都花得起。<br>我臊着脸，你不也能开玩笑嘛。<br>姑娘不吭声了。</p>
+<p>对了，你叫什么啊？<br>姑娘略有警觉，犹豫一下问，你叫什么？<br>我掏出钱包，说，我是警察。<br>知道她不能开玩笑，忙拿出身份证说，给，你自个儿看。<br>姑娘接在手中很认真的看了看说，比我大一岁。<br>我说，你叫什么啊？<br>姑娘说，叫我小雅就好。<br>我不满的说，我都让你看我身份证了，你就告诉我你叫小雅啊。<br>姑娘低头玩吸管。</p>
+<p>不说算了，走吧，找饭吃去。晚儿没位儿了。<br>姑娘站起身看着咖啡，说，就喝一口啊。<br>我看一眼说，要不，你全喝了吧。<br>姑娘笑笑说，去死。<br>选来选去，选了必胜客。</p>
+<p>披萨，牛排，饮料，零食配菜，我大概算了下快三百。<br>吃的时候，我说，一会儿你先走，然后我就逃单。<br>姑娘拿着披萨说，被追回来怎么办？<br>我说，被抓就被抓呗，抓了再结账。<br>那你费这事儿干嘛，结账不就得了。<br>我被她噎住了。<br>你知道什么是话题终结者吗？</p>
+<p>姑娘说，知道。<br>我特么没话说了。<br>扒拉着眼前的牛排。<br>平时看的笑话，段子，姑娘，PUA，统统用不上。</p>
+<p>我感觉我喜欢她了</p>
+<p>但又感觉走不远。我不可能若无其事的跟我的哥们儿介绍她，更不可能没心没肺的容纳一个被世人不齿的女生。<br>她是谁，她是干嘛的，老家哪儿的，大学在哪儿上的，什么专业，我都不可能了解。一个姑娘，比我小一岁，她之前的历史必定很复杂很复杂。</p>
+<p>不愿想这么多，我只想在我找到女友前有一个肉体上的安慰。（我就是这么龌龊，不用喷，后来我们的确有过一段恋情）<br>吃完饭，我老老实实的结账。<br>走在路上，姑娘看我低着头，附身弯腰看我脸问，怎么不跑呐？<br>我笑笑说，你穿个高跟鞋，我怕你没跑几步就被逮回来，那多不好，一个姑娘家家的。<br>她站住说，我们去哪儿啊？这才一点多。</p>
+<p>我坏笑着说，去我家吧，反正也没事儿干。<br>姑娘歪着头笑，想了想，翻开包拿出手机，把手机关掉。<br>我知道，这事儿成了。</p>
+<p>回到家，姑娘放下包问，你是干嘛的？我挺好奇的，家里这么多书。<br>我一把抱过她说，你先说你叫什么？<br>姑娘喘着气说，你叫我小雅就行，干嘛非要知道名字。<br>我说，万一哪天找不到你，有个名字也好找啊。<br>那更不能告诉你了。</p>
+<p>精虫上脑的男人，一般这时候是管不了那么多的。<br>嗯，我是男人，那会儿的确上脑。</p>
+<p>脱光衣服，我突然想起我没买安全套。<br>姑娘起身走到床边，拿过包。<br>我瞅了一眼，真特么是见识了。<br>侧包里全是，各种各样，花花绿绿的。<br>够搞批发的了都。<br>姑娘笑笑，跪在床上，双手撑在我两侧，俯在我脸旁妩媚的问，你要不要买啊。<br>那一刻，她像变了个人一样。<br>满满的风情与妖冶。</p>
+<p>来来回回三四次，我实在太累了。<br>我喘着气，她说，累不累？<br>累啊。<br>那还不下来，压得胸口好闷啊。<br>我忙下身，躺在她身侧，玩着她胸前的两个大白。</p>
+<p>她看着我说，有一次时间好长啊，我都受不了了。<br>我点点头说，一般两次以上都会有一次时间特别长。<br>我细细看她，皮肤很白。<br>离近看，能看见她脸上有几颗雀斑。她的嘴型特别性感，鼻子也特别圆润，遗憾的是有点儿婴儿肥。<br>不过，总体说，个头高加上皮肤白，已经很难遇到，更何况长得也挺漂亮。<br>现实中我遇到过这样的姑娘，可我从不敢有妄念。<br>这样的姑娘，总是打扮的很精致，让你望而生畏，让你自惭形秽，让你心生自卑。</p>
+<p>你平时都是晚上忙吗？<br>有过肉体的欢愉后，姑娘觉得和我少了距离。<br>她抱着我说，对啊，一般都是晚上，白天也有，不过比较少。</p>
+<p>那你应该很挣钱啊，你一个月不得五六万啊。<br>姑娘松开我，仰着脸眯着眼笑，胸口的大白一颤一颤。<br>我说，笑什么啊？不是吗？<br>姑娘摸着我的脸说，哪能天天都这么做，得休息啊，女生每个月都有月经，朋友有聚会什么的都要去，心情不好的时候我们还去KTV唱歌喝酒，这些时候我们都不做的。</p>
+<p>哦，你们的生活很丰富多彩啊，我们小屌丝很是羡慕啊。<br>姑娘说，你能喝酒吗？<br>我说，戒了，喝酒误过事儿。<br>姑娘一脸期待的说，讲讲，怎么误的事儿。<br>我坐起身，点根烟说，想听？<br>姑娘侧着身子，用手撑着脑袋点点头。<br>我笑笑说，那你亲我一下。<br>姑娘用手在嘴上点了一下，放在我脸上，木啊，行了吧，快讲。</p>
+<p>我擦了擦脸，甩了甩手笑说，这么多口水啊。<br>姑娘啪的一下，打在我手臂上。</p>
+<p>我眯着眼，故作深沉的说，itsasadstory，langlangago。（我原话，英语不好）<br>什么意思？姑娘笑着问。<br>我故意讲英语，就是想知道姑娘的信息。<br>她这么问，我大概知道姑娘的学历背景。<br>我说，那你再亲我一下。<br>姑娘起身，抱着我的脸，狠狠的啃了一口，说，快讲。<br>我心里猛然一惊。忙摸脸，可别啃个口子。回头哥们儿看见就解释。</p>
+<p>———————————————————————————————————————————</p>
+<p>我是一个比较容易受外力影响的人。<br>我一开始就只是想回答我晚上无聊睡不着做过那些奇葩事。<br>我做过很多。最后一个故事只是很小的一个故事，只不过她引出一段感情，这段感情很狗血。很多人都不曾和小姐谈恋爱，我特么传统正经的人自己都不曾想过。<br>这个故事跟任何人都没有讲过。<br>只是在看到漂亮姑娘或情侣的时候，心里哀叹一下，如果她不是哪种职业，我可能不会相遇。人的相遇都是无法预测的。</p>
+<p>有人说故事会，有人说天涯。<br>是啊，精彩的狗血的逗逼的人生掺杂着文字，描绘出来就是一锅拉拉杂杂的故事。<br>不怎么写故事，但我想把故事尽可能的写出来。<br>我想把怎么相遇，怎么相知，怎么相爱的故事讲出来。<br>憋在心里太久。</p>
+<p>她的影响太深，以至于我再找女友总会在外形上做比较。<br>我曾经有这么好的一个女友，除了职业让人不齿。<br>现实中的好姑娘总会有这样那样的习惯，爱好，缺点，毛病。<br>她因为她的职业，对我做出一次又一次的妥协，以至于最后最后一根稻草。<br>双方都无法承受。</p>
+<p>听过很多人，同事，客户，朋友，讲小三，找小姐，泡姑娘，搭讪，PUA，艳遇，我总觉得我这个是最完美的。可是我不能说，因为她是一个从事着让人不齿的职业，我不可能跟人讲我找过小姐，还爱她，还跟她谈恋爱。人都这样，喜欢刺激，追求不一样，但是你做出不齿的事情，人们会鄙视你。</p>
+<p>———————————————————————————————————————————</p>
+<p>我讲曾经去见一家做消防的客户，赶上工头儿子结婚，就随份子随了一千。在他们那里，一般都是200到500左右，我随了个觉得能接受但不跌份的钱，他觉得很看得起他。<br>那天晚上就让一帮亲戚狠灌。<br>那时冬天，我已经喝的没感觉了，趁着最后一点点的意识，想有点尊严，就跑到外边吐酒。<br>吐完就什么都不知道。<br>因为我刚好在他们施工的工地附近住，哪个工头以为我自个儿回去了。<br>问题是我特么吐完一头栽倒在地上了。<br>到了后半夜，大冬天冻醒了。<br>住了一天一夜医院。就这样耽误另一个客户，结果单子黄了。<br>那个单子我跟了有一个多月。<br>心生悔恨。<br>没毕业或工作不久的人，可能意识不到跟单子跟黄了的心情。<br>那种功败垂成的感觉，比失恋还要难受。<br>我失恋就几天几周缓和好，那次特别特别痛苦。<br>以后就戒了。</p>
+<p>姑娘听完，挺心疼的说，多少钱的单子，能心疼成这样？<br>我说，十几万吧。<br>姑娘说，好可惜啊。</p>
+<p>就这样有一搭没一搭的聊天。<br>自始至终我都没有很了解她。她不曾说过关于自己的一点儿事情。<br>我们聊娱乐，明星，好吃的，好玩儿的。<br>对了，知道她还有一个妹妹。嫁到了江苏徐州，才19岁，已经是两岁孩子的妈妈。<br>我诧异的说，你家是有多缺钱啊。<br>她看我一眼，说，我能抽口烟吗？<br>我递给她问，你回抽吗？<br>她吸了一口，点点头。<br>烟气只是在她嘴里呆片刻，又被她吐出来。<br>我说，你不会抽啊。<br>她把烟递还给我说，心里烦。</p>
+<p>我知道，可能又是某个点，戳到她的痛处。<br>跟她接触不多，但以我的理解和换位思考，能理解，她肯定不是那种因为懒而做这一行，肯定有不为人知的理由。</p>
+<p>过了一会儿，我抱着她。<br>她挑逗着我问，又想了？<br>哈哈，我又不是种马，哪能不歇呢。<br>我摸着她的肚子。摸到一道疤痕。</p>
+<p>我轻轻提起被子，假装不经意看一眼，心里还是一沉。<br>即便我没结过婚，但我还是知道剖腹产的疤痕。</p>
+<p>你流过产？<br>原本靠着我，听毕躺下，把被子拉到鼻梁，眨着睫毛，很轻微的点点头。</p>
+<p>我钻进被窝，抱着她说，你之前谈过几个男友？<br>姑娘转过身，背对我不说话。</p>
+<p>我突然觉得我此刻就是她的男友，很想知道她的过往，她的一切。<br>太傻比了我，那时。<br>也许，那时，我真的喜欢她了。</p>
+<p>我搭着她的肩膀，摇着她。<br>说说呗，有什么不开心的事儿说出来大家乐呵乐呵。<br>我开着无情的玩笑。<br>用貌似暧昧的言语刺痛她敏感的神经。。<br>人有时就是这样，在发生的时候不觉得，只觉得一件小事。过后回想，却是伤人无比。</p>
+<p>她转过脸，几点了？</p>
+<p>我有点不高兴，但又无可奈何。<br>毕竟，我们什么关系都不是。<br>她借用我打发空虚，我借用她排遣欲望。</p>
+<p>我拿起手机，五点多。<br>她看着我小声问，还做吗？<br>我笑笑说，不做了，哪有那么多体力。<br>她抱着我，说，活着好累啊。</p>
+<p>我突然很无力。我帮不了她，也不可能帮她，也不会帮她。<br>只是拍着她的后背，说，什么都会过去的。</p>
+<p>她眯了一会儿说，过会儿就要走了。<br>要忙啊？<br>嗯。她点点头。<br>我很搞笑的说了句，注意安全啊。</p>
+<p>躺在床上，看着她轻快的穿好衣服，听着卫生间的水流声，接着，咚一声闷响，砸的胸口疼。</p>
+<p>她离开后，我拿起手机，想给她打电话，但又不知该说什么。</p>
+<p>中间半个月再没联系。<br>我也没再想过要如何跟她联系。<br>我是一个俗人。<br>欲望的满足后，我可以不想那些有的没的。<br>如果没有意外的刺激，我想我会很久不去联系她。</p>
+<p>可惜，意外往往都很简单，特别是性欲</p>
+<p>那天在工作，浏览微博时，妈蛋，一个电影的营销号推荐了一部电影，说里面有床戏。我特么手贱，点了进去。又是百度云库，又是密码，我不嫌麻烦的点开看了看。<br>然后我就拿起手机。<br>电话很快就接通，她笑呵呵带着撒娇的语气问，想我了？<br>不敢想象，我当着满屋的同事面跟一个小姐打电话。<br>嗯。<br>你现在在哪儿呐？我在外边逛街呢，我去找你吧。<br>你就一个人？<br>我想，一个人，我还是能应付的了，毕竟说什么她都不可能当面反驳。<br>她说，不啊，还有我姐妹儿。<br>是不是上次我送你下楼遇到那个？<br>不是啊，怎么了？<br>没什么。<br>我只是不想出意外，超出我控制之外的意外，我往往不能确定能否搞定。<br>哦，你是不是看上她了？从实招来。<br>听着你今天心情很不错啊。<br>是啊。今天我生日啊，晚上我们聚餐，你要不要来。我都告诉她们了。<br>她们？谁啊？我有些警惕。<br>我姐妹啊。</p>
+<p>我不自觉的往后缩。<br>觉得她认识的应该都是小姐。觉得她们不好，更不敢想象跟她们一起吃饭会是怎样一种尴尬。<br>我看看吧，有空我就去好吧。你过生日怎么都不跟我说一声，我好送你礼物。<br>同事都转过身听我讲话。<br>我更加紧张。生怕哪一句话被他们听出电话里的姑娘是一个不干净的女人。</p>
+<p>她听出我的紧张，问，怎么不方便讲话吗？<br>没，同事在看我笑话呐。<br>哈哈，你也会被笑话啊？<br>哼哼，我敷衍的笑。是啊是啊，会的会的。<br>那我过会儿给你打过去吧。晚上来嘛，好不好。<br>喜怒无常的她竟然会撒娇。我差点就答应她了。<br>再说好不好。</p>
+<p>哦哟，你个货找对象不请大家吃饭啊？<br>晚上来嘛，好不好的~啦~~！<br>晚上，来嘛！同事做出鱼摆的动作，骚情万种的调戏着大家的情绪。<br>晚上一起去，看看这个狗东西，挑来挑去挑出个什么玩意儿。</p>
+<p>玩意儿那个字眼深深的刺痛我，即便知道同事是在调侃。<br>她是什么不好，偏偏是个……</p>
+<p>滚。我笑骂道。<br>刚认识没多久了啦，人家还不好意思嘛。我学着台湾腔。等有空肯定会请你们吃饭的啦。<br>同事们嘲笑着说，狗东西，回头请大家吃饭啊，好好宰你一顿。给你介绍这个介绍那个，都看不上，让我们见识见识。说着几个同事还拿起手机。<br>我赶忙夺回来。<br>做贼心虚的人，外界的任何一个动作都会让我风声鹤唳草木皆兵。<br>我怕他们从手机的任何一个地方看出端倪。<br>我开玩笑说，别看我隐私，我们两口子的视频怎么能翻看那。（这是一句老梗，同事之间经常用来嘲讽，说做的时候录视频）<br>同事说，还特么说刚认识，尼玛床都上了，视频都录了，回头大家分享分享啊。<br>我忙假装看资料，说，好的，好的。回头给你们看，嗨翻你们。劲爆的狠呐。</p>
+<p>不多时，她回过来电话。<br>方便吗？<br>我装作客户来电话说，哟，陈总啊，您说。同事们不再起哄。<br>我走到楼道。<br>你过生日啊？<br>对啊，你过来吗？声音特别轻柔，仿佛柳絮飘荡在耳边。<br>我看看吧，要是晚上不加班就过去。顺道给你买个礼物。<br>真的呀，那你给我买哈根达斯吧。我特喜欢吃。<br>好咧，没问题。给你买他家的火锅都行。<br>那好贵的，单球就行。<br>哪能呐，哥是那么抠的人嘛。</p>
+<p>说罢，我挂掉电话。</p>
+<p>看看手机，已经五点。还有一个半小时下班。<br>心里很是恐慌，忐忑，一个电话让我不知所措。<br>浑浑噩噩的看斗鱼上若风的直播，听着他的声音，幻想我要是一个玩游戏无忧无虑的人多好。<br>自己跟自己找麻烦。<br>人都无法预料生活的下一步会发生什么。</p>
+<p>到了七点，同事们陆陆续续离开，我应付完几个资料预算。坐在椅子上转来转去，抽有大概五六支烟。<br>她发来一条短信，是具体地址。<br>饭店就在我家附近，几步路就到。<br>很是为我考虑。</p>
+<p>我犹豫许久，最后收拾好东西。</p>
+<p>路过哈根达斯时，挑了一款快200的抹茶至臻。<br>到了地方，犹豫许久。我给她打电话，让她出来，想告诉她我不想参加。<br>她很快下来，很是惊喜的看着我手里的哈根达斯。<br>你真的买呀？<br>是啊是啊。我有些口干舌燥。<br>走吧，都到齐了，点菜呢<br>看装修，消费应该不低。<br>我知道，一旦走进去，单肯定是我买，即便被拒，也应该绅士一点给结了。<br>她看我迟疑，问，怎么了？<br>我顿了几秒，说，我不怎么想去。她们，都不认识。<br>她很大方的拉过我说，这有什么了，介绍一下不就认识了嘛。</p>
+<p>听着酒店里噪杂的声音伴随着迎宾礼仪的欢迎光临，感觉我不是走进酒店，我是走进古时的妓院。满屋的莺莺燕燕，打心底的开始厌恶反感。</p>
+<p>她用很委屈的眼神看着我说，进去吧。<br>我于心不忍，点点头。<br>路过一个服务人员时，我问，洗手间在哪儿？<br>我把包给她说，等下，我去照下镜子，怎么不能给你丢脸，得整的人模狗样。<br>她笑笑说，好哒。（是这么发音，我确定。很萌是不是）</p>
+<p>我用凉水拍拍脸，整理整理发型，漱了漱口，对着镜子说，以后坚决一点，不要给自己惹事。<br>内心里，我是很害怕的，她们这一类群人，那天炸锅出了祸事，自己就身败名裂。我很怕这样，虽说是一个小屌丝，但是，人都有各自的圈子，而她们，说不定就会东游西逛的遇到你。</p>
+<p>跟着她，进了包间。<br>美女见过，见过不少，但第一次见到满桌的美女，心里很是恐慌。<br>我愈发坚定她和她的圈子都是一类人。<br>愈发后悔踏入这一步。<br>我眼神飘忽，不知道该用怎样的眼神看她们一个个。<br>但我也在想，她们又会用怎样的眼神和心思来打量我，这里只有我一个男生。<br>毕竟，我不知道她是怎么介绍我给他们，我们是如何相识。</p>
+<p>毕竟，我没修炼到能和这么多漂亮而又从业未知的人谈笑风生。<br>平时那个口无遮拦嬉皮笑脸的我销声匿迹，只感觉我特么畏畏缩缩。<br>我特么连她叫什么都不知道。</p>
+<p>但还是很礼貌的跟大家打招呼，自我介绍一下。<br>叽叽喳喳开始了。<br>没错，跟特么电视剧里妓院里那种叽叽喳喳一模一样，不同的是，一个是古代的虚幻，一个是现代的真实。</p>
+<p>打开菜单，我特么真真被震住了。<br>广肚我吃过啊，一盘168让我买单，倒也买得起。问题是，一桌子菜，我特么买不起啊。<br>一份乳鸽，二百多，我把菜单递给她说，你今天是寿星，你先点。<br>她停下正吃的哈根达斯，接过菜单点了两荤一素。然后传给我。<br>我瞄了一眼，三道菜快特么六百。<br>我随手翻几页，实在不敢再翻，感觉几个人已经停下交谈，看我点菜。<br>一个烤鸭，一个千页豆腐。忙交给旁边的美女。<br>美女把烟放进嘴里接过菜单说，看你们点菜点的慢吞吞的，我全点了吧。<br>只听什么虾蟹，知名不知名的，一个个报出来。服务生一个个记下，然后又确认一遍，我都不敢发声说确定。<br>她说，对的。<br>桌子远处的一个姑娘说，酒就点天之蓝，先上两瓶吧。<br>我心里咯噔一下。<br>这酒我喝过，好喝归好喝，贵啊。599一瓶，这两瓶都1200。我摸摸钱包，感觉今晚这顿饭说什么也得装不要脸。<br>毕竟，钱还是得要，脸可以不要，反正都特么不认识。</p>
+<p>我拿出烟，正准备抽，看到旁边姑娘的中华，默默收起来。<br>我侧斜身，小声问她，这一顿饭得几千块啊。<br>她抿嘴笑，怎么，出不起啊？</p>
+<p>我感觉被宰了。<br>我特么深深的感觉被坑了。<br>果真是婊子。</p>
+<p>手心开始出汗。那一刻，我浑身燥热，但还要装作若无其事的样子。喝口水说，哪能呐。<br>她笑笑，看把你吓得。没事了，我自己结账。<br>我半信半疑的说，怎么说就我一个男的，还是要绅士点的。<br>其实，我心里还是紧紧抱着她那句话，作为我的救命稻草。<br>那一刻，我体会到老板请客户吃饭花出去七八千，真没忽悠我啊。</p>
+<p>吃的时候，我狠下心，管他娘谁出钱，好好吃。喝酒碰杯期间，我还扫眼，看能否再遇到那个电梯里见过两次的姑娘。<br>遗憾的是，没有。</p>
+<p>旁边的姑娘跟我说话，我都是答三错四，每一句都谨小慎微，生怕泄露太多个人信息。期间还把她的烟抽没了，只好出去买了两包中华。<br>买十块烟的小屌丝拿眼看我。我心骂道，艹，看个毛啊，看到老子潇洒，没看到老子吐血。<br>世上，便宜是万万不能占的。真理，永远的真理。</p>
+<p>吃到一半，那个姑娘千呼万唤的到来。中途给她们打电话的就是她。<br>我支起耳朵听关于她的信息。<br>她叫陈亭。名字听着，既不俗气也不特别，感觉很常见的。<br>我假装给她倒茶水，凑到她耳边说，你叫什么还没告诉我呐？<br>她醉眼朦胧的说，我叫刘雅同，同志的同。哈哈。<br>后来，再看到她身份证，那晚她没有骗我。</p>
+<p>酒大家喝的很嗨，菜基本上没怎么动，大部分都是我吃的。后来她告诉我，她的几个姐们儿对我的印象就是——太特么能吃了。</p>
+<p>卧槽，老子花了快四千块换来一个太特么能吃的名声。</p>
+<p>酒喝了三瓶，有几个喝的东倒西歪，她略微脸红，也喝了不少。期间还被大家起哄以男友的身份挡了几杯酒。艹，那可是大酒杯。</p>
+<p>差不多时候，我拿着钱包去结账。<br>男服务员看我的眼神都特么不一样。觉得这么年轻。感觉一点儿都特么不好。<br>3986，一分钱都没给少。<br>一分钱都不给少，老子当然要发票了。<br>收银很顺溜的给我开出发票。<br>一堆钞票换来一张张发票，而且一个中奖都没中，运气真特么背。</p>
+<p>结完账，她们已经聚集在门口，商量着去KTV。<br>我胆寒了一下，我真的去不起了。<br>听到她说，他明天还要上班，我要陪她呢。你们去吧，改天再聚。钱我出。说罢掏出一张卡，还说，把卡里存的酒都取出来，还有六十多瓶呢。</p>
+<p>我生生的服气了。<br>从没接触过这么一群人，太他么腐败了。</p>
+<p>回去的路上，她低头看着我说，花了多少钱啊？<br>我很希望她把钱给我，但做人不能太俗。<br>我就这么纠结一路。<br>嘴上却说，看你说的我多小气。花了还能挣不是。毕竟你生日，漂亮姑娘过生日花钱都不少。<br>她呵呵笑笑，说，谢谢你啊。<br>我心道，谁特么花几千给我过生日，说一晚上谢谢我也乐意。</p>
+<p>到家里，我说去个卫生间哈。<br>她躺在床上说，好晕啊。<br>我坐在马桶上，点开计算器算。一个哈根达斯200，两包烟130，饭钱，一共花了多少多少。妈的，煞笔了。</p>
+<p>抽了根烟，看着发白的脸，（我其实黑，但喝酒会白脸）揉揉眼，心道，值吗煞笔？</p>
+<p>———————————————————————————————————————————</p>
+<p>从卫生间出来，我很想委婉的告诉她吃饭花多少钱，但男性天生的自尊又让我住口<br>欲言又止几次，最终还是不说。<br>我拿出红酒说，喝不喝？<br>她翻下身子说，还喝啊？<br>红酒，不是白酒。<br>她说，好吧。<br>开到一半后悔了，我记得开瓶器还在啊。<br>试着把木塞取出来，不行。没耐性了，我使劲在阳台上磕了一下，瓶颈应声断开。<br>我出两个玻璃杯，一人倒了一半。<br>她坐起身，我端给她说，大学同学送的，进口的。<br>她说，我看下瓶子。<br>她晃晃酒瓶闻了闻说，红酒要醒酒的。说毕喝了一口，咂嗼几下说，红酒好像也有挂杯，你看这瓶子的标签那么简陋，也没有贴标，还有中文。<br>我是真不懂，一点儿都不懂。<br>坐她身边说，你懂红酒啊？<br>她咬着嘴唇说，懂的不多，都是听人说的。不过你这还行。<br>我喝了一口，说，红酒不是甜的吗？我同学送这一点儿不甜啊，还有一股子怪味。<br>你说的那种是甜葡萄酒，很低级的那种。<br>我就喜欢喝那种，跟特么美年达似的。<br>她噗嗤笑出声。<br>我问，怎么了？<br>她摆摆手说，没什么，你只是不懂而已。（我特么现在也不懂，我就只懂一点点精酿啤酒。美年达味儿的怎么了？）<br>喝了几杯，我不想喝了，主要是太难喝。<br>她躺在床上说，睡吧。</p>
+<p>我说，好。<br>我俩和衣相拥，我说，你搬过来吧。<br>她说，真的吗？<br>这有什么真的假的。<br>好。只要你别到时候再撵我走。<br>我这么好的性子，怎么可能。<br>说着，我开始脱她衣服。<br>她拦着我说，不要好不好，头好晕。<br>我只得罢手。</p>
+<p>关灯睡觉。</p>
+<p>男人，欲望来了，黑夜都是侵蚀。<br>我心里打鼓，不知打了几通鼓。估计她睡着了，手开始不老实。<br>她翻过身，睡不着啊？<br>我翻身压在她身上说，一个美女躺身边铁定睡不着，还是喝醉的美女。</p>
+<p>去拿套，她伸出手臂指向包。<br>我顺溜的拿出包，翻出东西。<br>做到一半，她翻身骑在我身上双眼迷离的说，把套取了吧。<br>我吓一跳，忙说，可别。怀孕就麻烦了。<br>她说，没事儿，我想给你生孩子。<br>我其实怕得病。还是死命拦住了。<br>还没做完，电话响了。<br>她侧身接电话。声音很小。听不清电话里边说什么。<br>但我能猜出接下来会发生什么。</p>
+<p>果不其然，做完，她擦拭好身子开始穿衣服。<br>我说，你要出去啊？<br>嗯。</p>
+<p>一直无话，直到离去。</p>
+<p>那会儿心境很澹然。因为知道不会有结果，不可能也不会有什么结果。<br>她要做什么，出去将会面对什么，我都不去想。<br>这样对我也好，对她也好。<br>就像白天跟夜晚，不要想着去干涉。<br>我做不到，也不可能做到。</p>
+<p>一个周末，她打电话来。<br>有空吗？<br>有，大把的控，一个眩晕，一个嘲讽。我开着LOL的玩笑，知道她不懂。<br>那过来帮我搬东西吧。</p>
+<p>你要搬家啊？<br>对啊，搬到你那里，你说的。她俏皮的说着。</p>
+<p>我特么屁颠屁颠的赶过去。</p>
+<p>到了她说的地方，打远处看见她很多行李箱。<br>这么多啊？<br>对啊。化妆品，衣服，电脑。<br>你这几箱东西可价值不菲啊。最终打了两个车，我把钥匙给她然后一前一后回去。</p>
+<p>到家，几个保安已经帮她把东西放进屋。<br>保安离去的时候，我感觉他们在诡异的笑。<br>你以前常来这里吗？<br>她撩了撩刘海，看着我说，怎么了？<br>我有点莫名的躁动。<br>你常来这里吗？<br>来过几次。<br>我觉得想事情太简单。这栋楼里，指不定有叫过她的人。<br>怎么了？<br>没什么。我清理下衣柜，你整理下吧。<br>可能我太敏感了。我自我安慰。</p>
+<p>衣服很多，化妆品也很多。以至于洗手台面放不下。我以前只有洗面奶，洗发水，香水，发蜡，保湿水，牙膏牙刷之类，看到这些化妆品我算涨知识了。<br>我拿起漱口水问，你要买这么多漱口水吗？用完一次不会再买吗？你是有多废啊。<br>说完这话我突然意识到，瞬间感到恶心。</p>
+<p>她打开另一个行李箱。<br>macbook，pad，touch，我特么真真见识到土豪。</p>
+<p>这个世界充满着恶意。<br>这个世界充满着残酷。<br>只要你有钱，什么物质性的东西都可买到。<br>只要有钱。</p>
+<p>哇咔咔，以后我能用你的电脑吗？见客户了还能装个逼。<br>可以啊。她一边整理一边说。<br>真的？这么大方？我学着周星驰的强调，做了个夸张的起身后跳的动作。<br>是啊。<br>我去，土豪，我们做朋友吧。我拉着她的衣角贱兮兮的说。</p>
+<p>在一起的日子很平淡。我白天工作。早上起床，不用想着做早饭。我没工夫也不可能做。晚上回家打游戏，看电视，网上看看留几手的微博，看看高晓松的《晓说》，听听岳云鹏的《当行论》、《文字游戏》。她晚上有电话就出去。有时候整晚也不回来。我都独自入睡。毕竟，在此之前很长时间都是一个人独自入睡。</p>
+<p>第一次看电影是《无人区》。<br>比较喜欢宁浩的作品，加上很早就拍摄，审核问题不能上映。呵呵，网络看的。<br>我一肚子的文艺片，很多美好的剧情，可突然就不愿分享给她。我想分享给我爱的女生，那个愿意跟她结婚的女生。<br>《艾利之书》《搏击俱乐部》《——》《赛德克巴莱》，还有任昌丁的所有电影，孙艺珍，河智苑的电影。可惜，我全部埋在心底。</p>
+<p>我承认我是自私的。</p>
+<p>她从不要求我什么，我也从不要求她什么。<br>她试图带我进她的圈子，我试图远离她的圈子。<br>我们住在一起，反而没有太多的交集。除了性，我们似乎没有太多交集。</p>
+<p>直到我丢钱包。</p>
+<p>那是九点左右，我陪客户逛了一天。饿着肚子，坐地铁回家。<br>手里拿着大包小包的资料。<br>下了地铁，走出地铁口，看着站外的人，突然就想起钱包。<br>打开档案袋，资料包，唯独不见钱包。<br>我慌了神。<br>钱包丢了不可怕，银行卡门禁卡丢了不可怕，2000块钱丢了不可怕。过一周签合同要用身份证才可怕。</p>
+<p>我哆嗦着给她打电话。<br>至今想不明白为什么要给她打电话。<br>她听我讲完，说，你在哪个位置？我过去找你。<br>我说完，第一时间去站台找服务台，服务台说派人给我找。打110，接警人告诉我，不可能为这事儿去调监控。来来回回，一个小时过去，我彻底绝望。</p>
+<p>她在服务台出现。</p>
+<p>我无助的抱着她。她拍着我的后背说，没关系。<br>我无力的说，马上就要签合同了。跟了两个月，我自己都花出去快一万了。<br>她扶着我走到等候区的座椅上，说，好好想想在哪儿丢的。<br>我拍着椅子说，就是这里。我坐在这里等地铁，地铁来了我就上去了。一路都给忘了。<br>她有些不知所措。钱包里有很贵重的东西吗？<br>身份证。签合同要用身份证。我是项目负责人，只有我能签。<br>等了不知多久，我说，走吧。没用了，这么久了，肯定丢了。里面有2000块钱，谁看都可能拿走啊。</p>
+<p>她执拗的说，再等等。<br>我说，走吧，一直没吃饭，我饿。<br>那你等着，我去给你买吃的，你想吃什么。她站起身。<br>走吧，没希望。你还想什么？<br>万一有好人呢？<br>呵呵，你还信？可笑。我嘲讽的说道。<br>在我的坚持下，走向电梯。<br>快出地铁口时，听到广播里吐出我的名字。<br>我疯一般跑向服务台。工作人员说，去×××站，人在那边的服务台等你。</p>
+<p>我赶紧坐地铁往那站赶去。<br>地铁上，她坐我旁边说，我还想接下来得给你生活费呢。<br>我呵呵笑道，真的假的，你这么想？<br>她点点头说，是啊。你看，你身份证，银行卡都丢了，办银行卡要身份证，办身份证要回户籍地，你什么都没有，连钱都取不出来。</p>
+<p>我呵呵笑笑，搂着她的手有些沉重。</p>
+<p>捡钱包的是一个大爷，说，你看看，一分钱都没动。<br>我相信，毕竟要还的话没必要把钱拿走。<br>我拿出一百块塞给他，大爷死活不接。钱都皱了，就是不接。我无奈的接过钱包，只听照相机咔咔响。<br>这辈子没上过镜，丢个钱包上镜了。<br>记者还说，你接下钱包，双手接。对，就这样。<br>她在记者身后比划个剪刀手，我差点儿笑出声儿来。</p>
+<p>大爷很高兴的离去，搀扶他的应该是他老伴儿。</p>
+<p>她特高兴的挽着我手臂说，我们要是能这么就好了。<br>我岔开话题说，走，请你吃饭去。<br>回去的路上，我一路都在留意还在营业的专卖店。</p>
+<p>快到家时，看到一个专卖店。我喊停车。<br>她疑惑的说，还没到呢。<br>我拉着她下车，说，给你买个包。一早就觉得你的包很难看。<br>她鼓起下巴笑说，是吗？<br>马连奴·奥兰迪<br>这个名字真特么难记。</p>
+<p>我看了许久，挑了一款黄绿色的手包。没有装饰，没有花色，只是简单的颜色。拿起时，我说，不管贵贱。说罢拿起价签。<br>我哈哈笑着对她说，我可是没看价签的。<br>她笑盈盈走到跟前说，多少钱啊？<br>199<br>哈哈，老天太照顾我了。我控制不住的笑出声。<br>她很开心的拿起包说，挺漂亮的啊。<br>收银的姑娘也笑着结账，从她的笑意里应该看得出她对情侣间的羡慕。<br>很遗憾的是，我们至今都没讨论过彼此间的关系。</p>
+<p>到家时，我说，买点菜，我做饭。省点钱，不出去吃了。<br>好呀，你做饭好吃吗？<br>小看哥，哥从初中就开始做饭，做到现在。</p>
+<p>我看你家的碗，有一个月都没洗了吧。<br>没事，回家你洗碗。<br>她说，好。</p>
+<p>可能经历过事情，我们才能了解彼此。<br>对于情侣，有些事是好，有些事不一定。<br>我也不知道，她那晚，突然给我讲她的身世。</p>
+<p>她很小的时候，父母离异。<br>一个妹妹，一个弟弟。<br>在她初中之后，就开始打工。<br>几年前，母亲得了子宫肌瘤。她要挣钱养家，还要给母亲看病。<br>她告诉我，一针要好几百块钱。一天有时要花几千块钱。<br>我说，然后你就做这个了？<br>她摇摇头，说，没。<br>我点起烟。<br>医生说，做完手术就好。做了几次手术，花了几万块钱。<br>才几万，不多啊。我疑惑问。<br>可是治了两年啊，下来花了有十几万啊。<br>不是有医保吗？<br>她像犯了错一样，低下头，筷子在碗里干巴巴的搅动。我那时不知道，医院说要交钱才行的。<br>后来呢？<br>后来病情恶化，又到医院治病，又治了一年多。做过几次手术，回到家没多久就死了。<br>去世了？我装作很诧异的样子，提高音量。<br>嗯。<br>看病一共花了多少钱？<br>不知道，我只知道我欠了三十多万。<br>我惊了一下。<br>这么多？我靠。怎么能欠这么多？第二次应该有医保啊。应该能报销不少啊。<br>她说，我不是很懂，好像也报销了一些。但是城市越好，报销比例越少。<br>哦，好像是这样。好像是这样。我无力安慰他，只能重复无营养的话。</p>
+<p>那你都借谁的钱？<br>我舅，我姑，还有好多亲戚。我妈死后，都开始找我要钱。<br>他们就商量着把我嫁出去，可是我哪能值那么多钱啊。<br>我擦，你干这个不会是他们逼你的吧？你可以告他们啊。我有点生气。</p>
+<p>没有，我出来打工就是想着还钱。没几年他们把我妹妹嫁出去了。<br>到现在你还了多少？<br>还完了。<br>换完了!？真的假的？！我有些震惊。</p>
+<p>不能说还完吧。我亲戚的钱是还完了，但我现在欠着信用卡的钱。<br>哦，我明白了，你办了信用卡，然后再倒钱是吧。<br>嗯。<br>你办了几张啊？<br>五张，一共三十二万。<br>我靠，你真牛逼啊。三十二万，你都怎么办的啊？<br>一个，一个朋友，他在房地产上，帮我办下来的。<br>明白，他帮你做资料是吧，办下来他抽了多少点啊？<br>抽了六万多。<br>我日，真特么黑心啊，抽了20的点啊。你现在欠的可不是三十多万啊，你现在欠的可是快四十万啊。银行的钱可不是闹着玩儿啊，滞纳金加利息，我去，要命啊。<br>我知道，我只能每月还最低还款。</p>
+<p>我承认我自私。<br>我帮不了她什么，也不敢帮她什么。</p>
+<p>那你还买笔记本，买这买那啊？<br>我要挣钱啊。不打扮，不花钱，我要什么时候才能还完？她提高音量，但声音还是很轻。<br>我不再说话。但我心里还是不明白，苹果的那一系列，完全可以还一笔。毕竟一万多。</p>
+<p>你应该找个好的，我不知道该怎么说下去。好的人，能帮你把钱还了。<br>我想过，可是不是你说一句，就有人肯要的。</p>
+<p>我知道，愿意花这么多钱的人，肯定需要门槛，不是说是个姑娘就有人要。有钱人那么多，但有钱人那么精。</p>
+<p>吃完饭，我收拾好。<br>躺在床上。<br>她接几个电话，匆匆离去。</p>
+<p>我希望她是骗我的。<br>我希望那都不是真的。</p>
+<p>可是哈哈哈我特么分辨不出真假。</p>
+<p>没过多久，她就回来。<br>她窸窸窣窣的脱衣服，然后钻进被窝。<br>我突然心疼起电费。<br>平时我一个人，更多时候是不盖被不开空调，虽说五毛六一度，但还是积少成多的。</p>
+<p>我抱着她说，你这样累不累？<br>心累的话，身体就不会累。<br>我说，你都接过什么样的人？<br>她眨着眼看我，你想听？<br>讲讲，拓展拓展我的知识面。<br>嗯，她思索片刻说。很多，各种各样的。<br>比如说。<br>有小孩儿，大概就是高中样子，有三十多的，家里很邋遢，还有你这样的，年纪轻轻不学好。<br>我说，我去，我怎么不学好。你是我第一次找的好不，我那天没准备找，平时这种名片我都随手扔的。那天翻名片夹，怎么就出来一张。我就试着打，打了好几次，都不好意思就挂掉。可能打通一次，那人给回过来了。巴拉巴拉介绍一通，我不好意思就同意了。<br>她刮刮我的鼻子说，还不好意思呢。不好意思就不会同意。<br>我使劲抱了抱晃着她说，我是一个不会拒绝的人。要是我拒绝了，就不会认识你了。<br>她亲了我一下，依偎在我怀里。<br>你真的不会拒绝吗？<br>我去，不会借钱吧？<br>我沉着心说，嗯，看情况吧。<br>她把手伸向我的敏感区。</p>
+<p>我岿然不动说，放心，我不想的话肯定能坚持，你再调戏我都白搭。<br>她趴在我胸前，一脸坏笑的说，真的吗？<br>我说，嗯哼。<br>她俯身滑进被窝。<br>我忙说，这不算。你这算送货上门。得我自己主动才行。<br>她在被窝里闷声说，我就试试。</p>
+<p>也许是相隔时间不久，我很长时间都不出。<br>她气喘吁吁的出来，头发扫在脸上，我满心都是柔软。</p>
+<p>我整理她眉间的头发，拉过她说，聊聊天吧。<br>她靠在肩膀上说，聊什么呢？都快聊完了。<br>我说，有的情侣，聊天聊完了，就结束了，因为无话可说，与其天天无言以对，倒不如重新开始。<br>她绕着长发在手指间，说，我们会聊完吗？<br>我说，咱们是情侣吗？<br>沉默片刻，她说，我们就当情侣好了，但我不妨碍你找女朋友。你要是找到女友那天，就到卫生间把我的化妆品全放到洗手台的柜子里，这样我回来就明白。我就搬走。<br>我笑着说，这估计比较难啊，估计你这辈子都搬不出去了。<br>她嗤嗤的笑。<br>我不知道怎么会冒出这么句话。<br>是情话吗？<br>在我看来不是，是玩笑话。她可能忘了，她可能不知道，也可能，我就没告诉过她，我喜欢开玩笑。</p>
+<p>你怎么没想过去夜总会之类的，那里应该能挣得更多，可能还遇到土豪，看上你，大手一挥，就把你的债务给解决了。<br>我有想过，但我不希望别人知道我做这个。要是我去了，就会把身份证的资料交上去，这样我在公安局可能就有案底。<br>我去，你想得挺远啊。<br>我一个姐妹儿，就是你上次送我遇到那个，她就遇到一个男生。特喜欢她，家里也特别好。两人谈了很久，她有好长时间都不再做了。后来莫名奇妙的就分了。后来也是听说，有人在公安系统上查到她的一些资料，开房记录非常多。<br>你给我讲讲她的故事吧。<br>我不是很了解，我们之间很少会把自己的事往外讲。我跟你讲我自己都意外。要是有一天不在一起，我再也不会见你。<br>别这么无情啊，老情人见面总是可以的。<br>不。她说的很坚决。<br>你讲讲你知道的。<br>陈亭好像买房了，不过都是借的钱。她还要挣钱给她弟弟结婚。<br>我去，她弟弟不会挣钱啊，一个大男人。<br>她弟弟脑子好像不太好，肯定不好找媳妇啊。<br>唉。别讲了，你们一个个都悲苦身世，我特么再听下去，满满的负能量，我都不知道该怎么活了都。怎么悲惨的事儿都让你们给遇上了啊？<br>她沉默一会儿说，应该是你遇上了有着悲惨身世的人。悲惨的事儿很多，只不过你不知道。<br>我亲她的额头说，你准备一直这么做下去吗？<br>她说，我什么都不会。<br>你可以试着做销售，做些别的行业。慢慢的等你经验多了，有资源了，就不像刚开始那么累。<br>可是我现在要还账啊。总得把账还清才行。</p>
+<p>我不能给她任何帮助，嘴上的泛泛之谈显得尤为乏力。<br>这世界就是这么可笑，自己无力却遇上身世可怜。除了无奈就是悲伤。</p>
+<p>不过我有学舞蹈。<br>不会是钢管舞吧，以后去酒吧啊？<br>不是，我考资格证，到时候去培训机构当老师。<br>这个不好考吧。<br>没事，我有时间，总会成功的。<br>好，虽然这剧情很特么像《无人区》里的，不过，加油。<br>她笑，灿烂的脸上在我看来却透出一股莫名的哀伤与凄凉。</p>
+<p>早上起床，她安静的躺在床上。<br>如果这样的姑娘走在街上，她那么漂亮，那么安静，会让人觉得高不可攀。<br>如果在大学里，她应该有很美好的前程。<br>远离世俗，远离喧嚣，定会有一段美好的情缘，一路走到繁花似锦。<br>喝口水，洗漱完，没有太多矫情。迟到扣钱的规定让我快速面度现实。<br>路上看着奔驰的轿车，高档低档的，车里人或安静或皱眉，或烦躁或沉默，都让我心生羡慕。他们都那么的充实或美好。<br>到公司，收到一份快递。<br>我问同事，从哪儿来的。同事说，外省。<br>擦，不会是请帖吧。有种不祥的预感。<br>一个月前同学说结婚。我突然想起来。</p>
+<p>打开一看，真是。</p>
+<p>上次吃饭流的血还没不回来，这特么又来份子钱。<br>周末举行婚礼。婚礼前大家聚聚，我们宿舍又要单独聚。<br>还有三天。我要提前两天去。就是明天就出发。<br>我准备两千块，来回花销大概一千。<br>这特么又是一顿饭钱。</p>
+<p>晚上回家，她一晚上没回来。</p>
+<p>半夜，我给她打电话。<br>她压着嗓音说，怎么了？声音很小。<br>我知道怎么回事，小声说，我同学结婚，明天我就走。你自己注意。<br>嗯，你也注意休息。要我送你吗？<br>不用了，你忙吧。</p>
+<p>说完她那边挂掉。<br>我自己忍不住笑，你忙吧。嘴里重复一遍刚才的话。</p>
+<p>一觉睡到八点多，太阳都升起很高了。<br>听到开门的声音。<br>这么早啊？<br>她拎着一大包零食，放下包说，还不起床啊，猪啊。说着扑在我身上。<br>我起身说，等下，洗个脸刷个牙就走。<br>那我送你。<br>不用，你赶紧休息吧。<br>我一边洗脸，一边说，其实你不用送我。我又不是出门，我过个三四天就回来。<br>你第一次出去啊，我送送你也是好的。万一哪天我出去，你也送送我啊。<br>哦~~，在这儿等我呐。心不诚，不送。<br>她走到门口，看着我洗脸。突然说，我帮你洗头吧。<br>我说，你会的还挺多啊。</p>
+<p>她走到我旁边，我低下身。<br>她把水淋在我后背，我腾的起身，她叫一声，捂着鼻子。<br>我忙转过身，她对着镜子看了看，鼻子有点红，好在不严重。</p>
+<p>对不起，我不是故意的。水太凉，条件反射。<br>没事，我的错。我就是想玩下。<br>我自己洗吧。<br>我来给你洗，说着按下我的头。<br>很轻柔，不过也没什么特别，跟美发店的洗头小妹没什么区别。还不舒服，毕竟要半弯腰。<br>给我擦头时，看她认真的样子，我笑。<br>她拍了拍我脑袋说，笑什么呢？<br>像我妈。<br>她停下，伏在我肩头笑，一边颤一边说，有这么年轻的妈吗？</p>
+<p>我拿过她手里的毛巾，擦了擦，对着镜头打理发型。<br>她看着镜子，一手摸下巴一手搭着我下巴，说，嗯，挺帅的一个小伙子嘛。多少钱一斤呐？<br>我边捯饬边说，这位大婶，我们家的小伙轮次不论斤，想要的话你可以包夜的。<br>说着，她走到我身边，拿出手机照了一张合影。<br>我说，这算是侵权啊，回头给我使用费啊。<br>她一脚踩在马桶上说，好，老娘包你了。<br>我收拾停当，她拿起东西说，该带的东西都带上。充电器，钱包，身份证。<br>我说，知道，事儿多。<br>她噘着嘴说，我还事儿多啊，我都没怎么麻烦过。<br>好好好走吧，我还不知道有没有车呢。<br>你票还没买啊？<br>放心吧，这不年不节的，有票。</p>
+<p>下出租车的时候，师傅找钱时说，你女友挺俊（zun，四声师傅发音）啊。<br>我打哈哈，笑几声接过钱。</p>
+<p>她装作没听清的样子，挽着我的胳膊说，刚才那师傅跟你说什么啊？<br>我忍住笑说，哦，他说你长得丑的一比啊。<br>她狠力捏我一下说，说，老实点儿。<br>挺疼的。我说，他说你长得俊（zun）。<br>她脸开的跟花儿似的问，那zun是什么意思啊？<br>我说，这个我还真不知道，你得问他。<br>她拉着我的胳膊，不让我走的样子。<br>我抬手扬扬手机说，没时间了啊。<br>她这才跟着往前走。</p>
+<p>买完票，我说你回去吧。你进不去，现在不卖站台票了。<br>我送过人，我用身份证就行了。她一脸的认真。<br>给我看看，你还有身份证儿啊。<br>她打开钱包拿出身份证，笑着说，照片很丑。<br>我接过说，本来都不zun好不好。<br>她鼓嘴笑着又拧我一把。<br>我看了看地址，就是本省的。</p>
+<p>上了车，她坐了好一会儿。<br>车厢四周的人很羡慕的看着我俩。<br>在面对陌生人的时候，我很享受这种感觉。<br>可一旦脱离，我想我很难再坦然面对。<br>再不走火车可开啦啊。<br>开就开呗，大不了我补票。<br>别闹。<br>她突然说，要不我跟你一起去吧，就当旅游了。反正你同学也是第一次见我，像我这么漂亮，还能给你长脸。<br>有那么一刻，我心动了。</p>
+<p>还是算了吧。<br>超出意外的事情，我尽可能的把握。<br>我带足三千块，超出预算我都很难把握。<br>到了省外，很难说不出点小差错或小插曲，都是成年人，不是小孩儿过家家。干嘛都会用到钱。</p>
+<p>我笑着说，你赶紧回去吧，你不挣钱养活我了，还说包养我呐。<br>哦。<br>听完这句，她安静的坐下来。<br>乘务员的哨声响起来，站台上行色匆匆的人加快步伐，哨声一声催一声。<br>我说，行了回去吧。带钱了没？<br>呀，忘了。<br>我拿出一百块给她说，打车回去啊。<br>她说，你再给我一块，我坐公交回去。<br>我有点儿心疼，说，这火车站，公交很难等，没座位要站很久的。<br>你给我嘛，说着从我钱包里拿出两块零钱。<br>在门口，她抱着我说，早点儿回来啊。<br>我说，我特么是参军啊还是蹲大狱啊，要这么悲惨吗？<br>她笑笑。<br>在转身时，我看到她眼睛红红的。</p>
+<p>七八个小时的行程，到了地方舍友告诉我，还要坐大巴到他们市里，到市里还要再转车到他们镇上。<br>我特么也是醉了，不是省会啊。<br>无奈的买票，上车，睡觉。<br>到他家已经半夜。<br>第二天几个同学聚会，大家格外热闹。</p>
+<p>毕竟几年没见，分外热情。<br>大家追忆当初的生活，谁追哪个姑娘不成，谁把哪个姑娘上了又分了，谁快毕业时追班花。哪个女生结婚了，谁买房了，谁谁买车了。<br>落到最后，问哥找对象没？<br>这特么成了每次必聊话题，特么玩个WOW都会问一下。<br>我夹一口菜说，没呐。<br>大家起哄说，艹，还不找啊。还特么祸害姑娘啊。你放过世间的姑娘吧，赶紧结婚，给别人留点儿。<br>我说，哪有，现在得挣钱买房啊，没房子谁特么跟你啊。<br>大家嘻嘻哈哈，吃过中午聚下午，班里吃完吃宿舍。<br>晚上回旅馆时，跟几个舍友交流，他们都随三千。<br>我擦，这么多？要这么土豪吗？<br>咱们三个，给他随个9999，说三千还是少的呐。</p>
+<p>卡里钱不多，但再取个几千还是有。但我莫名其妙的想问她借点。</p>
+<p>怎么了？还没睡啊？<br>我，我那个，钱不够，能借我点儿吗？我回去就给你。<br>嗯，多少。<br>三千三。<br>呀，这么多？<br>多么？<br>我卡里不多。<br>能给我转点儿吗？<br>你急用吗？<br>有点，有点急。同学都随三千三，想给他凑个九千九百九九，我带的不够。<br>你不是带的有银行卡吗？<br>我卡里没钱了。<br>嗯，我去看下我卡里还有多少，一会儿我给你转过去。<br>好。</p>
+<p>挂完电话，我想，转个毛蛋啊，卡号都没要，那个行都没问。心里一阵失落。<br>回到房间，舍友几个在打牌。大学那会儿经常玩，六个人两副牌。<br>我坐好位置，心不在焉的玩这儿。<br>玩了五六圈下来，电话没有，短信也没有。<br>我感觉不对。<br>我对同学说，先起牌，我打个电话。想起公司一事儿。<br>快点儿啊。</p>
+<p>怎么了？<br>我的钱也不够。<br>有多少？<br>就四千。<br>那你先借我点儿，回去我就给你。<br>可，可我这两天要还信用卡的。要是晚了，卡就有麻烦。<br>我忍着火气说，我后天就回去，耽误不了你还款。<br>可是万一呢。<br>我日，哪有那么多万一啊。我后天就回去了，你还怕我跑了不成？我家在哪儿，你还不相信我啊！<br>我有些生气。同学也停下讲话，听我。<br>没有，我就是怕。</p>
+<p>我低下声音，压住火气说，你放心好了，我后天铁定回去。回去就给你好不好。我无奈的拖着音。<br>哦。<br>那我把卡号发给你。我特意把卡号声音降到最低。<br>嗯。<br>我把卡号发过去，收起手机回到牌桌。</p>
+<p>怎么，跟那个姑娘吵架呐？<br>没有，公司的事儿，笨的要命。</p>
+<p>不多会儿她打来电话。<br>我跟同学点头致歉。同学挥挥手说，就你逼事儿多。赶紧的。</p>
+<p>又怎么了？<br>钱转不过去。<br>我艹，我骂道。怎么可能？卡里的钱怎么可能转不了啊？<br>她有点快哭的样子说，转不了就是转不了，我也不知道啊。<br>我耐着性子，压着火气，心里骂道，艹，提到钱一个个都特么是问题了。<br>你用的是哪个行的卡？<br>建行。<br>咱们附近没建行，你用的跨行ATM机是吧？<br>嗯。<br>那肯定不行啊。你找建行。前边不远有一个建行，你过去。<br>哦。<br>你别挂电话，我就等着。<br>好。她满腔的委屈。<br>到了建行，她说，ATM机不能用。<br>我艹，活他妈见了鬼，ATM机怎么可能不能用啊？<br>不信我拍照发给你。<br>言毕她挂掉电话，用微信发给我。<br>还真特么是。</p>
+<p>想了想，无奈的吐口气说，远处还有一个，就是有点儿远，你打车过去吧。<br>我把地址说给她。<br>她挂掉电话。<br>我特么回到牌桌说，不玩了，睡吧。喝酒喝得有点头晕。<br>同学说，行吧，看会儿电视。<br>一哥们儿说，怎么了，心情不好啊。<br>我接过烟说，有点儿。<br>他拍拍我的肩膀说，都这样，慢慢就好了。<br>我说，你特么美满，媳妇也订婚了，房也买了，就差结婚赚一道了。<br>他大笑说，你特么到时候可得给老子封个大红包。<br>我说，肯定啊，封个大的，老子结婚再给赚回来。跑不了你小子。</p>
+<p>脸上强颜欢笑，心里却挂着远方。</p>
+<p>许久没有电话。<br>我深深吸口气，悄声走到楼下，给她打过去。</p>
+<p>还没转过来吗？</p>
+<p>卡里余额不足。<br>嗯？信用卡吗？<br>不是，借记卡。<br>擦，借记卡怎么可能余额不足啊？<br>我也不知道啊，好像是绑定信用卡，过几天还款，就不能动。</p>
+<p>我特么也曾用过信用卡，这话鬼才信。我心骂道。<br>戏演到这份上，我也固执上了，借不到钱，老子回去再也不见你。<br>我说，那你试着取，看能取出来多少就转多少。</p>
+<p>听着ATM机的声音，头一次感到这么厌恶。</p>
+<p>1000。她小声回道。<br>只能取一千？<br>嗯。<br>那就这样吧，转给我吧。<br>好，那我挂了啊。<br>我没回话，用力按下挂机键。那力道，恨不得把屏幕按碎。<br>我蹲在地上，盯着手机屏幕。<br>过有三两分钟，短信提示我1000块钱已到账。<br>我收起手机上楼。<br>她发来一条短信。<br>对不起，没帮到你。<br>我随手删掉短信。</p>
+<p>第二天同学热热闹闹的办婚礼，司仪煽情的话语，让女生纷纷泪下。<br>我们男生在一旁起哄。<br>中午吃完饭，我就跟哥们儿还有同学说要回去。<br>哥们儿挽留，我说，滚蛋。你在这儿度蜜月，我特么干看着啊。回去，公司的事儿得处理。你理解的。<br>哥们儿点点头说，那路上注意点儿啊。转手塞给我一条烟，说，别推了，难得来，带回去抽。大学你最喜欢抽这种烟。<br>我抽了抽鼻子。<br>挨个跟同学道别。</p>
+<p>回去的路上，心里一直在回想，这特么稀奇的事儿，还真是头一次遇到。储蓄卡里的钱取不出来，取不出来，取不出来！<br>心里冷笑几声，也知道个大概。<br>憋在心憋一路，半路大巴高速服务区休息时，我找了个旷野的地方吼了几嗓子。<br>男人沦落到问女生借钱，一般都不会混太好。也特么不知谁说的狗屁话，我骂道。<br>可是，我偏偏不信，可偏偏撞得满头包。<br>虽说借来，可也借的满心不痛快。<br>我带着一肚子的疑惑上了火车。</p>
+<p>——————————————————————————————————————————</p>
+<p>回到家，我至今想不起我怎么解决的。<br>我抱着兴师问罪的火气。<br>火气冒了一路，特么比蒸汽火车还多。<br>回到家，没见她人。<br>第二天上班，一天都在假想她怎么给我一个解释。<br>我还咨询同事，信用卡绑定储蓄卡，快到还款期会不会锁死储蓄卡里的钱。<br>同事头一个个摇的跟吃了摇头丸似的。<br>我还在给她找借口，还在为她解脱，愿意相信她说的都是真的。<br>一同事不耐烦了说，我特么明天还款，刚好跟你说的一个样。也是招商的信用卡，建行的储蓄卡，来，看着，老子给你转过去五千块，一会儿转给我啊。<br>我心里默默祈祷，不成功不成功，转不了转不了。</p>
+<p>手机短信彻底让我死心。</p>
+<p>我把五千块转回去。<br>一个下午都沉默无话。<br>在公司呆到十点。</p>
+<p>我被骗了。<br>心里很难受。<br>特么的都是演戏。</p>
+<p>我特么那点儿对不起你了？<br>我特么这点儿钱犯得着骗你？<br>你特么出去连这点儿钱都没有吗？<br>我特么在外地，找你借点儿钱你特么推三阻四，最后借他妈那么点儿，我要是真没带够钱没带卡是不是还得问同学借回家路费钱啊？</p>
+<p>在公司里，我一个人发火，对着空气一遍又一遍的骂。声彻楼层。<br>快十一点，我慢慢吞吞的回到家。<br>她还是没回来。<br>什么东西都在。<br>可我无心这些。<br>我想见到她人好好问一问，甚至想好扶着她的肩使劲儿晃。<br>为什么不借给我。<br>但我又不愿给她打电话。</p>
+<p>哼，你不回来，我不去找你。<br>谁他妈还离不了谁啊。<br>女人还找不了一个，我特么白活了。<br>带着一肚子气吃包泡面睡觉。</p>
+<p>半夜时分，听到开门声。</p>
+<p>她打开灯，我睡眼朦胧的起身。<br>吓，你回来了？<br>我躺下身，无力的说，我特么不回来还死在外边啊。<br>她走到我身边，弯下腰，吐气在我耳边说，谁惹你生气了？</p>
+<p>她嘴里的气吐在脸上，突然满肚子的火气没有了。<br>原本想破口大骂为什么不帮我，转嘴成了，你喝酒了？<br>嗯。几个姐们儿心情不好。<br>喝了多少？<br>她笑眯眯的说，你猜。<br>不说拉倒。我转过身。心里骂道，猜你麻痹。<br>十二瓶。<br>哦。<br>听我回答的声音。她从后面抱着我说，怎么了嘛？心情不好啊？<br>我终于忍不住。<br>起身说，储蓄卡里的钱怎么可能取不出来？<br>她愣了一下，扁着嘴说，当时就要还款。真的没钱。有我肯定借你，别说借，给你都可以的。<br>说罢，偎依在我身前抱着我。指甲在我后背划着。</p>
+<p>都说女人撒娇无敌，漂亮女孩儿撒娇更是开挂。<br>一点儿都没错。<br>那时，我心都化开了。什么特么的钱不钱的，你一个男人不帮人家解难，还特么问人家借钱，人借给你，虽说不多，你还特么怨恨人家。<br>我狠狠的抱着她。<br>她依旧划着我的背说，对不起，别生气好吗？<br>我感觉后背有些凉凉的。<br>我忙扶着她肩，看她脸。<br>一脸的泪水。<br>有些心疼。<br>但我偏偏说不出对不起。<br>平时一嘴一个对不起，特么餐厅服务员我不小心碰到都能说，可当时就是不愿说。<br>她划我后背更厉害，泪水止不住的落。<br>我拿过纸巾，一点一点擦。<br>别哭了，我又没说什么。<br>她哭抱着我，头靠在我肩头，说，我马上要还信用卡，可钱还不够。我很想帮你，我当时就想把钱全都转给你。可是信用卡一有问题，银行就打电话给办卡的那个人。那个人说要是再有问题打电话骚扰他，他就通知银行把卡取消掉。已经出过一次了。我的卡额度比较大，银行比较看重。我平时又很少刷卡消费。</p>
+<p>泪水打湿一片。凉凉的，麻麻的，还有点儿痒的。</p>
+<p>恩，我知道。以后你别乱花钱，花钱就刷卡，这样能好好养卡。说不定过个几年，银行给你涨额度，账还完了，你还能买房呐。买房也能刷卡。</p>
+<p>她在我肩头点头，我感到有点颤。</p>
+<p>眼泪，说是别哭了。女人是泪做的吗？动不动就哭？<br>哪有，我都很少哭。我妈死的时候我都没怎么哭。<br>这么铁石心肠啊？<br>她摇摇头，不是，看病的时候，经常哭。哭到后来，就不哭了，都没有泪水可哭。<br>看，这不又哭会去了。<br>少不了的。你妈想着，这傻逼姑娘，我死了都不哭。<br>她使劲儿拍打我后背。</p>
+<p>别打，别打疼。<br>她心疼的揉起来，问，还疼吗。<br>还疼，心疼。<br>她用力的抱着我，泪水扑簌扑簌开始掉。<br>我实在不想擦了。</p>
+<p>我挺烦的。但还是耐着性子，说着言不由衷的话安慰她。<br>哭了一会儿，她开始抽噎。在我怀里不停的耸肩。<br>我抚着她后背，连话都懒得说。看着手机，特么的Moon跟sky再也不会出现，Th000蒸蒸日上，只是我觉得魔兽争霸或许就要随着WCG离开我们这一代人。</p>
+<p>等她恢复差不多，我收起手机问，吃饭没？<br>她摇摇头。<br>我说，我去给你泡包面吧。<br>她点点头。<br>我起身，拆包面，本想用开水泡，可一想还得烧水，算了，还是煮吧。<br>煮好我端给她，她勉强的笑了笑说，谢谢。<br>哟，要这么客气嘛。</p>
+<p>吃完面，我打开空调，说，睡吧。</p>
+<p>夜半，我醒了。<br>我抚着她胸前的大白。<br>她说，睡不着啊？<br>我吓一跳。说，吓我一跳，你还没睡啊？我都睡一觉了。<br>她说，我睡眠浅，我感觉有人在碰我，就醒了。<br>我笑笑说，不好意思，吵着你了。<br>没关系。<br>我俩脸对脸，贴的很近。能听到彼此的呼吸。</p>
+<p>对不起。她嘟囔着说。<br>我小声说，过去就过去，不要再想了。<br>嗯。<br>她移到我更近的身前，侧抱着我。<br>我移开胳膊，也抱着她。<br>她从额头开始亲我。<br>我身下的反应也强烈起来。<br>直到接吻，我第一次把舌头探入她的口中。<br>虽然知道她每次都事后会用漱口水漱好几次。可我还是过不了心里的坎儿。这次我迈过去了。<br>她也热烈的反应。<br>她亲我的脸，我的额头，我的脖子。<br>我亲她的耳朵，脖子，锁骨。<br>她有些压抑的呻吟。<br>她紧紧的抱着我。<br>她说，不戴套好不好。<br>我心里犹疑不到一秒，说，好。</p>
+<p>可我还是颤颤惊惊的进入她的身体。<br>她温润的身子击穿我的心底。<br>我挺怕她有病。<br>性病可不是很好治的。我初中小学时候电线杆子上贴的全特么是治疗性病的。万一得病，我特么就傻眼了，要是艾滋病，我特么这辈子都白活了。<br>可我还是奋力的做下去。<br>快要出的时候我想抽身，她抱着我呢喃说，别出来好不好，就这样。<br>去他妈的，怀孕就怀孕吧，现在这么多流产医院。到时候去正规医院，丢人就丢人吧，负个责又死不了。</p>
+<p>趴在她身上，她不停的在亲我。<br>我气踹嘘嘘。<br>听到她喊我一声亲爱的，声如蚊蚋，但我还是听见了。<br>嗯？<br>她接着亲我。<br>我假装没听见，咳嗽了几下，想把那声嗯给掩饰过去。</p>
+<p>休息过来，我从她身上下来，说，没压疼吧。<br>她笑笑说，不疼，就是有点儿胸闷。<br>我笑道，是你胸前大白太沉。<br>她拍了我一下，但很轻。<br>我作势咬她，她躲开。</p>
+<p>我给你生个孩子好不好？<br>你觉得我养得起吗？<br>她沉下声，手指在我脸上划动。<br>泪水滑落在我的手臂。</p>
+<p>又怎么了？<br>我真的很烦。<br>她抬手擦擦泪水说，没有啦。<br>没有你哭什么啊，我又说错话了啊？<br>她忙安慰说，没有，你别生气。她抱着我，抚着我后背说，没有啦。<br>可明明很浓的鼻音。</p>
+<p>——————————————————————————————————————————</p>
+<p>人的生活本就很平淡。<br>如果我不贪念那一刻欢愉，我想我还是会像我的哥们儿学习，老实诚恳做人，不苟且做事，更不做有悖道德的事情。</p>
+<p>有关我俩，从来都瞒着。<br>这一段感情，狗血的感情。</p>
+<p>有那么几次，我想过，跟她一起努力。<br>但终究还是理智。<br>两权相害取其轻。<br>一笔巨额的债务，一个如鲠在喉的人，一段不疼不痒的感情。</p>
+<p>其实我们彼此都在迷惑，我们之间到底是怎样一种关系。<br>但扪心自问，我是有些在乎的，但更多还是无所谓。</p>
+<p>在被她追问候，更多的回复是，随缘吧。<br>我做不出任何保证，即便违心做出来，可做不到更伤心。何苦又何必呢？<br>有时我连你的存在都不敢让一些人知道，我又怎能做到承诺。<br>成年人，更加在意的是现实。</p>
+<p>一个下午，叔叔打电话说来看我。<br>我日了狗了，到楼下才给我打电话，不知道事前联系吗。<br>我匆忙赶回家，从地下室上楼回到家中，着急忙慌的把她所有的化妆品收起来。<br>在放进去的那一刻，想起她说过的话。我忙给她发条短信。<br>把衣服收起来。把所有关于她的物品，气息都收起来。</p>
+<p>我平复好气息，下了楼。</p>
+<p>我去，叔叔，婶婶，堂弟，堂妹，一家全到齐。<br>这是看我来还是家访啊？<br>我带着他们上去。<br>堂弟个熊孩子，尼玛都高考完了，到别人家里还翻来翻去。<br>我烧水倒茶，给堂弟堂妹倒饮料，开电脑。<br>叔叔随口聊聊家事，奶奶家旧屋拆了，盖了新房子。还惦记我这么大了，找女朋友没。<br>我的工作怎么样，家里的生意还好吧，爸妈身体怎么样。<br>接着聊到，同事有几个条件不错的女生，介绍给我。<br>我忙说，好啊，好啊。<br>叔叔说，行，那改天给你介绍下。<br>我其实挺期待的，找一个正儿八经的女友，这样就能不再她身上做太多付出。<br>感情这东西，你不觉得付出时依然在付出了，就在不知不觉间投入。<br>就像LOL，即便adc输出再低，只要你坚持不懈的输出伤害，总会把对方打死。</p>
+<p>可亲戚最特么不靠谱，等到如今，我都没接到叔一个电话。我自个儿都谈了一两个。</p>
+<p>到晚上出去吃饭时，叔叔才说出目的。<br>回家时有公司报账，有个七八千的发票搞不到，想着我常出差，就让我想想办法。<br>我说，没事，明天就能给你。公司的抬头是什么，名目怎么写。<br>问清楚，我很想送叔叔走回去。<br>怕她突然回来。<br>给她发了几条短信，都没回复。</p>
+<p>到了六点多，叔叔说，出去吃个饭。<br>我也不好推辞，毕竟长辈，许久不来，还带了很多老家特产。</p>
+<p>晚饭吃的贼多。<br>挺撑。<br>自家人真是不客气，怎么解释吃饱了还是让你吃。<br>不吃可惜了，再吃点。<br>叔叔看着一脸的热情，实在不好凉了叔叔的心。<br>硬着头皮，吃的肚子实在不行，就说，都分担点儿，再吃胃撑不住了。</p>
+<p>吃完饭叔叔领着去看电影。<br>我真是够了，挑个合家欢《忍者神龟》。<br>好在买完票就能看，不用花时间等。<br>好莱坞的电影怎么说呢，的确挺吸引人。<br>如我满怀心事，电影还是把不好的情绪给引开，让我投入剧情里面。<br>记得那个女孩儿爸爸的同事，不就是《越狱》里的警察马宏嘛。特喜欢他，尤其是鼻子。贼性感。<br>中电梯里，几个兄弟唱起来，我就这里笑了笑。<br>心想，等改天有空请她去看电影。<br>可从没想过，这一场电影，直直等到最后。</p>
+<p>看完电影，叔叔开车送我回家。<br>临走时，交代我发票的事。<br>我说，放心吧。路上开车慢点。<br>叔叔鸣笛示意，离开。</p>
+<p>我给她打电话，无人接听。<br>拨打另一个手机，也是无人接听。</p>
+<p>算了，我都发短信了，你能一条都看不见？<br>想想又给她发短信。<br>是我叔叔一家今天来看我，我叔叔四十多，贼老奸巨猾，什么事儿能看不清楚啊。你几句话被他看破，卧槽，我特么回家怎么说？我家人在家可抬不起头啊。你理解下。<br>转念一想，把短信删掉。<br>我没找女朋友，家人来看我，我怕他们多想。你要是愿意，明天我去我叔叔家，带你去。<br>果然，回短信了。<br>好。</p>
+<p>我拿着手机，站在楼下。心情有点烦。<br>这说出去了，你倒是回的挺快啊。打电话都不接，一条短信蹭的一下就回过来。</p>
+<p>在楼下转悠，看到亭子里坐着一个姑娘，看背影是她。<br>我蹑手蹑脚走过去，屏气凝神。<br>啊！我吓她。<br>啊！她明显抖了一下。<br>看清是我，才拍着胸口，说，吓死我了。<br>我笑过后问，生气了啊？<br>嗯？没。<br>没死嘛，还能说话呢。<br>她不说话。<br>你没看见我短信啊？<br>看到了啊。我回复你啦。<br>就回复个好啊。<br>是啊。你发几条短信，我都不知道怎么回。<br>你，你挺有心机啊。<br>她笑着站起身，挽着我甜蜜的问，那你带不带我去见你叔呀？</p>
+<p>你做什么工作啊？<br>做采购。<br>挺会选专业啊，跟我这么匹配。<br>呵呵。她仰着脸笑，跟孩子似的。<br>工作多久了啊。我模仿叔叔的声音。<br>六年。我大专毕业。<br>没有再问下去。我觉就这样吧，爱咋地咋地，反正走不长远。<br>走一步是一步，能走多远走多远。缘尽缘散。</p>
+<p>记得电影《失孤》里，曾抄写的一段话。<br>她来了，缘聚，她走了，缘散，你找她，缘起，你不找她了，缘灭，走过的路，见过的人，各有其因，各有奇缘。每一寸土地，你都在上面生过，死过，每一个众生，都做过你的父母，施主，多行善业，缘聚，自能相见。</p>
+<p>很是契合。<br>不管怎样，慢慢走吧。我能做到的只有这些。<br>我不是什么富商巨贾，也不是什么多情浪子，更不是正人君子。<br>我能做的就是耍小聪明，占小便宜。<br>她总是让着我。<br>我知道，只有女孩儿很爱很爱一个人的时候才会这么委屈自己。把满心满腹的爱投入到一个人身上时，她会忽略自己。<br>初恋那会儿跟她一模一样，处处让我。直到别人追她时，她才警醒意识到，原来爱还可以这么温柔，还可以不那么委屈自己。</p>
+<p>我知道，可我做不到像爱别的女孩儿那样爱她。<br>总是在内心柔软的时候，触碰到心底的结，硬硬的。</p>
+<p>第二天，把自己的发票整理整理，又要了同事的一些发票，林林总总凑在一起，大概有六千多。只有这么多，也实在是搞不到。毕竟是发票。</p>
+<p>下班时，我带着她去叔叔家。<br>她还买了水果。<br>我说，知道我干嘛的吗？给他们省几千块钱，你还倒贴钱卖水果啊。<br>第一次看长辈，肯定要买东西嘛。要不是怕提不动，我要买很多的。<br>你可拉倒吧，这只是看我叔叔，不是看我爸妈。你激动个毛啊。<br>看着点儿路，别回头说话了。她拍着我的后背。</p>
+<p>一路风尘，到了叔叔家。</p>
+<p>堂弟开的门，满脸放光的看着她，忙喊，爸，妈，哥带嫂子来了。<br>我一脚踢过去，别瞎喊。他闪身喊，爸，堂哥打我。<br>我忙作揖说，死孩子。<br>她笑眯眯说，你好。<br>堂弟贱贱的笑，说，嫂子真漂亮。<br>接过水果，贼拉热情引着她到客厅。<br>卧槽，热情的有些过啊。我说。<br>堂弟说，见你十几年了，看够了啊。</p>
+<p>我拿出发票，给了叔。<br>叔叔、婶婶热情的坐到她身旁嘘寒问暖。<br>我坐在一侧，假装看电视，其实侧耳听着，生怕一个疏漏。<br>聊了许久，叔叔拉我到卧室说，你还说你没对象，这么大的事儿都瞒着你妈他们。<br>我说，只是谈着，结婚都没影的事儿呢。<br>人家这么好的姑娘，可别亏着人家。<br>知道了。<br>谈多久了，有没有没跟你住一起啊。<br>没呐，哪有那么开放啊。<br>她平时花钱怎么样啊？<br>挺节俭的。<br>那就好，好好待人家，啊。叔叔一脸的诚挚，我却满嘴谎话。<br>打心底发愧。</p>
+<p>吃完饭，叔叔送我们离开。<br>我说，不用了，我骑的电动车。<br>叔叔拿出几个西瓜，说，都是从老家带来的，小是小了点儿，甜。<br>我拿出几个说，说装不下，半路再摔了。<br>叔叔只得任我往外拿。<br>临走时，她抱着一条小狗出来。<br>我说，别乱拿。<br>婶婶说，嗨，家里好几条呐。我们都不想养，看雅同喜欢，送她一条。人家一个人养，又不让你养。<br>婶婶满脸的疼爱。<br>身后婶婶拉着她的手说，××啊，就是人拙实了点儿，嘴不会讲哄你开心的话，但是心肠好，要是惹你不如意你多体谅点，别跟他一般见识。还是个小伙儿，等结婚就成大人，就懂事儿了会疼人。<br>她红着脸，点着头。<br>离开时，婶婶追出来，拿出一叠钱硬塞给她。<br>还说，别给我，给我也是大手大脚花没了。<br>她推了几次没推掉，只好任婶婶塞进包里。</p>
+<p>我极度的愧疚。<br>愧疚叔叔婶婶满满的情谊给我糟蹋掉。</p>
+<p>××，可得对人家好好的。啊！<br>淳朴的婶婶离着老远还喊着我名字交代。<br>这所谓的叔婶婶，并不是血缘上的亲戚啊。<br>我差点儿哭出来，回头挥挥手，示意婶婶回去。<br>直到我骑车离开，婶婶也没进屋。</p>
+<p>到家，我看见她满眼通红。<br>别哭了。<br>他们只是热情而已。谁家都这样。<br>我装作满不在乎的说。<br>她嗯了一声，放下小狗。<br>起什么名字好呢？</p>
+<p>狗而已，就叫它狗狗。我不以为意。<br>多不好听啊，狗狗，本来就是狗，还叫狗狗啊。说着把脸贴上去。<br>婶婶送的，希望开花结果，就叫它果果吧。</p>
+<p>我说，怕是不好结果啊。<br>所以叫它果果啊，寄托着我的希望啊。<br>哼，心里冷笑几声。</p>
+<p>睡觉时，她把钱放我钱包里说，婶婶给了好多钱。我知道我不该接，可我推辞不了，你也看见了。喏，放你钱包里啦。</p>
+<p>你拿一千块，上次借你的，一直没还。<br>她犹豫一下，还是把钱放进去。<br>走到我身边，抱着我。<br>如果我不是小姐多好。这样你就能好好爱我对不对？<br>那，你肯定看不上我，那么多高富帅，怎么也轮不上我。<br>可是我就看上你了。<br>可偏偏命不好。</p>
+<p>她靠着我，使劲儿的哭，后背耸的厉害。<br>我只能抱着她。</p>
+<p>小狗汪汪的叫着。<br>她一个劲儿哭，小狗一个劲儿叫。</p>
+<p>哭了许久。<br>眼睛有些发肿。<br>她蹲下身，从包拿出火腿肠，一点一点掰碎。<br>小狗哼咛着开吃。<br>果果乖，果果不闹。<br>以后叫你狗妈吧。<br>我想逗笑她。<br>那果果长大了，没有狗爸多可怜啊。<br>你别这样，很多事，你老是希望有个结果，到时候实现不了你会更难受。希望越大，失望到来时就越痛苦。</p>
+<p>果果渴不渴啊？妈妈去打水给你喝哦。<br>她满腔的温柔。</p>
+<p>突然觉得，老是这么优柔寡断，终究会害人害己。<br>可我还是贪恋她一时的身体。<br>我自私，自私到无以复加。</p>
+<p>小狗舔着水发出叭叭的声响。<br>她站起身，找出一个纸箱，把小狗放进去，把食盒也放进去。<br>刚忙好，电话打来。<br>我知道她该忙了。</p>
+<p>我今天身体不舒服，嗯。嗯。<br>她坐在床边，发着呆。<br>我打开电脑，看了看合同，资料，写了写工作备注跟一些要点。<br>合上电脑，说，过两天要去出差。<br>后天就走吗？<br>大后天吧。<br>哦。<br>今天不舒服吗？<br>心情不好。<br>她不说话，俯身趴在床上。<br>不舒服就休息吧。我低下身，帮她把鞋脱掉。<br>你脚这么凉啊。我烧点热水，你泡泡脚。</p>
+<p>烧好水，我掺着凉水，调好温度端过来。<br>把脚放下来。我扶着她。</p>
+<p>她的脚很纤秀。<br>细腻的皮肤，脚趾也很精致。<br>你说你怎么不去做模特呢，这么好的条件。<br>我也拍啊，偶尔会有淘宝的店铺让我拍一些。<br>我轻轻的搓着。<br>烫不烫？<br>有点。<br>那你也不吭一声啊。<br>烫烫也好。</p>
+<p>吧塔一声，水滴击打在水面。<br>怎么又哭了。<br>你对我这么好，要是分开，我再找不到像你这么好的怎么办。<br>不会的，像你这么漂亮的女孩儿，肯定会找一个比我还要优秀的。他会宠你，呵护你，保护你，不会像我这样，只是在利用你。<br>我麻木的说着。手放在她的脚面上。</p>
+<p>明天我们出去玩吧。<br>嗯。<br>她没有一点欢喜。<br>过一会儿，我拿毛巾给她擦脚。<br>你的脚好漂亮啊。<br>将来你生个女儿，绝对漂亮。说完我就后悔。<br>生儿子才会像妈妈，那才漂亮。<br>是，是。我忙岔开话题。明天请你看电影，坐过山车。我特么来这里这么多年才坐过两次。<br>好。</p>
+<p>躺在床上，我一点一点抚摸她。<br>她抱着我说，我今天来例假了。<br>没事，我又不做。<br>我怕你难受。<br>看你说的，大老爷们儿，做不做还死了不成。<br>我用嘴吧。<br>我心跳了一下，特难受的跳动。<br>我搂着她说，你别，你这样我会儿很难受的。<br>她说，没事，这样不会很累。我给你个不一样的。<br>说罢她打开台灯，走到厨房接了一杯水。<br>她把水含在口中，从我的脖子开始亲。<br>划过的每一寸皮肤都凉凉的，痒痒的，麻麻的。<br>我浑身打着颤栗。<br>一直滑到最下边。<br>她从被子里出来，把水吐到垃圾桶。又钻进被里。</p>
+<p>我看着被子一起一伏，我闭着眼。<br>过了很久，我感觉要射了。<br>我射在她嘴里。<br>我满心满身都是愧疚。</p>
+<p>我拉过她，她扭身把嘴里的东西吐出，说，要不要尝尝。<br>我扑哧笑了笑说，还是别了。<br>她笑笑，漱了漱口。<br>说，我想亲你。<br>我说，你快睡。<br>不嘛，我就要亲你。说着就亲过来。<br>你麻痹我特么也是第一次尝到自己的味道。</p>
+<p>我擦了擦她嘴角说，以后别这么糟践自己。<br>一个女孩儿，你这么做，以后我要是想起来，我会很难过。<br>她靠在我胸膛，无力的说，可是不这样又怎么办呢？我弟弟还在舅舅家，要花钱啊。</p>
+<p>我什么话都说不出。<br>现实中我是如此的无力。<br>说百无一用是书生，说手无缚鸡之力，说负心多是读书人。<br>我觉得，说的就是我。</p>
+<p>第二天，早早醒来。<br>化好妆，看着她，我从没见过她这么漂亮过。<br>浓而不艳，美而不冶。<br>她帮我挑好衣服，不知从哪儿拿出一双鞋。<br>花花公子的纯白板鞋，很漂亮那种。<br>毕竟，我的很多鞋都是花花公子。</p>
+<p>我笑着说，还好不是白上衣，我这么黑。<br>显我白啊。她拿出手机，第二次合影。<br>我很配合的搞笑，歪着嘴，她也斗鸡眼。<br>我拿出相机说，给你多拍点照片。</p>
+<p>骑车走在环线上，很是爽。<br>到了游乐场，买好票就开始逛游。<br>找好看的地方拍照。<br>偶尔捉弄她，让她转身碰到别人，她红着脸走到跟前作势踢我。</p>
+<p>好害怕啊。<br>我也害怕啊。万一掉下来就煞笔了。<br>每当我说脏话时，她总会掐我一下，当我被她掐疼叫出声时，她又心疼的问，疼吗？</p>
+<p>坐在车上，她说，你拉着我好不好。我害怕。<br>我攥着她的手，生怕掉下去。</p>
+<p>车子一点一点启动。桄榔朗朗响起来。<br>到几个大反转的地方，我听到她刺耳的尖叫声。<br>手狠力的牵着我。<br>我特么是想叫来着，感觉胸口有东西堵着，就是叫不出来。<br>不知多久，车缓缓减速，直到完全停止。<br>她坐在车里，我看着她说，没事儿吧？<br>她说，不行了，我胸口好闷啊。<br>我也是，腿发软。<br>我搀着她下到地面。<br>你脸都是白的。<br>是吗，我这么黑。</p>
+<p>碰碰车，小火车，升降机，摩天轮。我们挨个玩儿遍。<br>时间过很快。<br>转眼傍晚。回市区的路上，我拿出耳机说，你路上听歌吧。省的无聊。</p>
+<p>欧巴，好贴心呀。<br>扯淡。<br>路上她在我耳边说，要不要听这首歌，特好听。</p>
+<p>五月天的《你不是真正的快乐》。<br>一路上的感觉都不好。<br>但嘴里还是唱着，在手心留下密密麻麻深深浅浅的刀割。<br>这是大学时在宿舍常听的歌。<br>每当听到这首歌，便想起每次宿舍聚会的往事。<br>可，这首歌，放在此间，也是如此应景。</p>
+<p>到电影院，我看着大屏幕问，想看什么电影？<br>你挑你喜欢的，不用管我，我看什么都可以的。<br>想都没想，买了诺兰的《星际穿越》。<br>在等待时间里，我给她讲黑泽明，斯皮尔伯格，大卫·芬奇，给她讲《盗梦空间》，莱昂纳多，讲《和莎莫的500天》，讲大学里看的科恩兄弟，西科塞斯，奉俊昊，《杀人回忆》，朴赞郁，任昌丁。那一个小时，我讲了太多太多。恨不得把关于电影的美好和记忆全部描述给她。<br>她支着脑袋，认认真真听我讲完这些。<br>后来的后来，才知道，这些枯燥乏味的讲述，没有画面和特效的支撑，再多都是无聊。</p>
+<p>记得有个笑话说，别人带女孩儿来看影院不是看电影，我带她来真是看电影。<br>诺兰的故事跟特效深深吸引我。<br>她也很认真的看完。<br>回去的路上，我大赞海瑟薇。<br>她安安静静的听我叨逼叨一路。我特么那天就是个话唠。<br>就特么不会安安静静的说点儿情话吗？</p>
+<p>吃饭的时候，她说，你给我讲讲你的故事吧。<br>我说，你想听什么？<br>什么都行，从哪儿讲都可以。<br>我说，那我的故事可丰富多彩。<br>她抿着嘴看着我，满眼的期待。</p>
+<p>小时候，我贼特么皮。她伸过手要掐我，我忙说，我错了，错了。上大学也没好。记得有一次，急着上厕所。我匆忙就进了厕所。大学合堂教室一排好多，男女厕所也分开，就进错了。<br>尿完，我就在洗手区抖，就在哪儿抖啊抖的，刚好进来一女生。女生很诧异的看我抖，我说还看啊。她才荒忙退出去。我还一边抖一边说，进错厕所了还看。等我出去，门口站了四五个女生。回头一看，我去，是我进错了。问题是，走到门口我还在弄皮带。跑了，那一天的课都没敢上。</p>
+<p>她捂着嘴笑笑，说，你一直不学好。<br>我喝口水说，那给你讲个好的。</p>
+<p>我们有卫生区域嘛，那个区域归那个系扫，学院再落实到班级。一天刚好轮到我们宿舍，我们四个就再餐厅那片打扫卫生。<br>扫地无聊，我就扛着扫把，假装是火箭筒，对着餐厅大楼说，瞄准，发射，嘭。<br>只听，餐厅三楼，嘭一声炸了。<br>她瞪大眼睛问，真的吗？<br>肯定的，就是炸了。我去，当时看见的人全都看着我，太特么邪门儿了。<br>后来呢？<br>后来消防来了，赶巧是厨房燃气问题，炸了。<br>她拍拍胸口说，好危险啊。<br>我笑笑，你连糗事百科都没看过吗？哈哈，这是个网上的故事。我怎么可能遇到呢。来，把手机给我，我帮你下载个，你无聊不开心的时候，看上面的笑话。里面有好多的笑话，搞笑的图片。还有黄段子哦。我小声说。<br>她看看左右，伸手拧我。<br>我拿过手机说，帮你下了。她站在我身边看我把软件下好。</p>
+<p>她点开一点一点看。偶尔会笑笑，遇到好的会给我讲。<br>她不知道。我很早就不再看，因为一点儿也不好笑。<br>但她给我讲，我还是会笑得前仰后合。<br>我会依据她笑得程度，来决定我笑的夸张程度。</p>
+<p>就这样，她迷恋上给我讲笑话。<br>直到有一天，我说，你不要再讲了，其实一点不好笑。<br>可她依旧会看，会保存一些特别好笑的。</p>
+<p>去外地那天，她说，你的touch能让我听吗？<br>我说，没事。我有手机就够。<br>《如烟》也特别好听。<br>是吗，好听的多着呢。《小太阳》也不错。<br>嗯，我听了，超好听。我有机会把里面的歌都听完。<br>七八百首歌，你听得完吗？有些没必要，很多周杰伦王力宏的。<br>我也很喜欢啊。<br>周杰伦的你都喜欢那些啊？<br>《七里香》《黑色毛衣》《简单爱》，好多呢。<br>我不爱听，touch里没有，我喜欢的多是中国风之类的。<br>我也爱听。<br>我说，那你多听听。</p>
+<p>上车时，她大包小包零食给我买。把东西放好后。我陪她走到车外。<br>我抱着她说，别死吊在我这一棵树上。我特么一点儿都不好，你还会遇到更好的。我想好好对你，可我过不去心里的坎儿。我想了不知多少遍，可，可我就是想不明白想不通。有时候，我想到我帮不了你，我会更痛苦。每天想到你面对的残酷，我都会痛恨我自己为什么不能帮你分担。</p>
+<p>求你，别说了。我心好痛。她蹲在地上，把头埋在怀里，任我怎么拉都拉不起。<br>我蹲下身，说，别哭了。现实已经够难了，我们何必再让自己痛苦。</p>
+<p>你没有错，错的是我，我不该召唤你。<br>现实要像LOL那样多好，大不了20分钟投降，大不了重开一局。<br>可现实，你必须结束此局才能开始下一局。<br>不然，将永远痛苦的活在上一局里，那里面的每一次刀光剑影将会在心底纷纷扰扰，每一次的苟且卑鄙都将赤裸裸的铭刻在内心深处。<br>别人不知道，只有自知。</p>
+<p>周围的人越来越多，我浑身不自在。<br>求你，别哭了好不好。<br>她泪水挂花了脸，睫毛膏也花掉。<br>我拿出她包里的湿巾，小心的一点点擦拭花掉的地方。<br>眼睛，是那么清澈。<br>眼睛里一个我，让我心生不齿。<br>她伸手摸我的脸，说，要多久回来？</p>
+<p>不会很久，我会隔几天回来的。到时候记得接我。<br>嗯，她抽泣着，鼻子里冒出泡泡。<br>我扑哧笑了，她也带着泪水笑出来。</p>
+<p>好了，别哭了。我们活着都这么难，再给自己添堵，干嘛要活这么累。<br>累一点，可心里踏实啊。</p>
+<p>大巴车缓缓驶离，转弯，再看不到她笑意温柔的美好。<br>希望，她的生命里能有一次好的转弯，能够前程似锦，能够美好如春。<br>为何人跟人要如此不同，有的人一生顺遂，有的人坎坷磨难。</p>
+<p>在外地，工作上没有太多的事情，除了偶尔解决问题，更多时间我可以找网吧打上一天的排位。<br>很快，我就从白银升到黄金一。<br>好久没这么开心过。看着越来越多的英雄，我感觉我离钻石不远了。<br>偶尔遇到不爽的时候就看视频回放。<br>皇族差一点就赢了，可惜终究干不过韩国队，韩国队太强大了。SKT陨落又来个三星，两次得亚军，uzi心里该是多么的遗憾啊。</p>
+<p>这时，客户跟我说，我给你介绍个对象吧。<br>我说，你又那我开涮。<br>真的，不开玩笑。一开始你说你没对象，我都不信。<br>怎么突然信了？<br>你这么久出来，也不回去也没人来看你。<br>我，我无言以对。</p>
+<p>客户介绍的是他本地的一个公务员，一个女孩儿。大学就在我家附近，一个普通二本，毕业后就回家工作。比我大三岁。特优秀的一个女孩儿。</p>
+<p>客户简单介绍后，就拉着我去跟人家见面。<br>吃饭的时候，两人开着车，我坐在客户车里说，我没车没房，不会让我入赘吧？<br>客户说，我们看重的是感觉。<br>物质上的东西，只要努力，都会有的。而感觉上的东西，不是说说就能遇到。<br>我点点头。<br>找一处咖啡餐厅，点了几个饭，小吃零食，大家边吃边聊。</p>
+<p>互相了解基本信息。<br>长得中等，皮肤比她差些，眼睛大大的。长长的马尾。<br>言谈中，会蹦出些马尔克斯，《麦田守望者》一类的词。<br>她就不会，她在我记忆里好像从没说过什么高深文艺的话来。<br>虽说没有她那么吸引人，我还还是抱着希望。<br>结束后，客户让她送我回去。</p>
+<p>路上，有一搭没一搭的聊着。<br>走到她家楼下，我礼貌的起身说，早点休息。<br>她也很礼貌的说，太晚了，不晚的话陪你多聊会儿。</p>
+<p>回到住所，我翻看手机，挺希望找个人聊天。<br>看了看一些娱乐新闻，迷迷糊糊入睡。<br>第二天，客户打电话，昨晚聊得怎么样啊？<br>没怎么聊。<br>嗨，你是男生，你多主动点。人家有钱的主当初给她买房送她，都没追上。你不主动，难道还等人投怀送抱啊。<br>我说，不会吧？这我哪儿行啊？<br>哎，感觉这东西，来电了我们这种人是不在意物质上的。</p>
+<p>过几天，因为一些资料的缘故，来到市区。客户给我找了一家宾馆，就在人家楼下。<br>客户说，这下可方便，努力靠自己啊。<br>晚上，我给她发条短信：有空的话出来散散步。<br>许久没有回话。<br>凑，装什么装。爱回不回。<br>躺在宾馆的房间，看游戏直播。<br>到了九点多，她回电话过来。<br>不好意思，单位事多。<br>没事，路上注意安全。<br>好的，到家我给你发短信。<br>没多久，收到短信。<br>我照照镜子，下楼。她站在车边，说，久等了，不好意思。<br>没事儿，在宾馆休息。近便，说不上久等。<br>嗯~~，她看了看说，去那边的学校溜溜吧。<br>我跟着她进了校园。</p>
+<p>也不知都特么聊了什么，看看手机已经快十一点半，我说，回去吧。明天还上班呢。<br>呆了三天，吃了两次饭，一次客户作陪。<br>回项目的那天，她说，有空去找你玩，你那里可是我们这边的风景区。<br>好的，我争取熟悉熟悉，你来了带你看不一样的风景。<br>挥手作别，礼貌风度。<br>坐回车里，我终于可以把皮给脱下，翘着腿，叼着烟，哼着歌。<br>我想，我生来拘束，屌丝惯了，终究不适应高大上的生活。</p>
+<p>接下来偶有微信聊天，多是电影，身体，工作，休息一类无营养价值但又不能不聊的话题。<br>偶尔她回打来电话，聊不到几句便匆匆挂掉。<br>也许，我们彼此熟悉，从身体到精神，就像两口子。我们没有走正常程序，怪异的转到婚姻模式。除了必要的关心，其他日常是无需太多联系。</p>
+<p>和客户介绍的姑娘聊有半月，在一天借顺路的由头在项目部呆了一下午。<br>期间，她也赶来。<br>那一刻我相信有命这一说。</p>
+<p>大家都是成年人，说不上老辣，但看问题还是不会差，特别是男女关系。</p>
+<p>那个姑娘自此消失的无影无踪。<br>五天时间，微信上留言一次，电话拨打三次，短信一条。<br>我便自知的不在打扰。<br>虽说我很希望和她有结果，但有些事，不是强求可以得来的。</p>
+<p>她一心愧疚的说，对不起，我想给你个惊喜的。<br>我说，没事，知道成不了，就是打发打发时间。</p>
+<p>期间回去一次。<br>她来接我。<br>天下着雪。<br>我说，冷吗？<br>冷。<br>我搂过她，冷还不穿厚点，你傻啊？<br>她躲在我怀里笑，我说，你怎么不买衣服啊？<br>她笑笑说，没事儿。<br>我带着她买了两件羽绒服。<br>回去的路上，我说，要是我不会来怎么办？<br>那你就不会骂我傻了。</p>
+<p>我哭笑不得。<br>冻出毛病是你的事儿，不是我骂不骂你。老了得风湿病，痛苦一辈子啊。<br>我能活到什么时候自己都不知道。<br>我说，别这么悲观。即便大忙我帮不了你，小忙我还是帮的。不管什么时候，不管我们以后什么关系，即便是陌路，你给我打电话，我都会帮你的。<br>那你换号呢？<br>我换号会通知你。何况，还有微信。</p>
+<p>她挽着我，在大雪纷飞的夜晚，凄凉的走着。</p>
+<p>中间，断断续续，会回去几次。<br>每次回去，都少不了缠绵。<br>每次都做到筋疲力竭，彼此用力抱着，恨不得融化在对方的身体里。<br>每次天亮，我都不情愿的睁开眼。<br>每次，在我离开时，她都没睡醒。</p>
+<p>我尽量走的悄无声息。<br>已经如此艰辛，愿她能在睡梦中多呆片刻，就能远离忧愁片刻。<br>走得时候，我会给她钱包里塞上几百块。<br>不多，只是我的一片心意。<br>愿她，不会为钱所困，为钱所扰。</p>
+<p>—————————————————————————————————————————</p>
+<p>我自己有时都不明白自己是个什么样的人。<br>在项目部，即便很想她，可就是不打电话给她。<br>嘴里一套一套的理性，对女孩儿要柔软，要懂得让步，要知道女孩儿都喜欢同龄中更成熟的，能带来安全感的。而不是还在耍脾气，为了点儿破事儿就斤斤计较的小男生。</p>
+<p>我懂，道理我都懂，可我对她却做不到。<br>圣诞节的时候客户送我一个尤克里里，听说我学过艺术，他们度假时就多买一个。<br>我平时很少发微信，难得在微信上秀了一把。<br>同学，朋友，同事，客户都各种赞，各种评论。<br>心里很是暗爽。</p>
+<p>到了晚上看到她刷的一条评论：还不回来吗？<br>看着评论，想象着她说话的音调。<br>拨通她的电话。<br>听到她气息不匀的问，怎么了？</p>
+<p>从没觉得这么远。<br>感觉我俩之间好像隔了一条河，听得见她的音听不见她心。</p>
+<p>在忙吗？<br>嗯。<br>想你了。<br>我也想你。<br>那你都不给我打电话。<br>我怕打扰你。<br>哦。<br>还有事儿吗？<br>没了。<br>那我挂了。<br>嗯。<br>嘟一声。</p>
+<p>回想，她的确很少打电话给我。</p>
+<p>还有一个月就过年。<br>给家里打电话说不想回去，家里太冷。<br>家人说，一个人在外边算什么？<br>我说就过个年而已。<br>一年在外，过年不回家，街坊都怎么想啊？亲戚还得你走啊，你结婚不得靠亲戚给张罗啊。<br>没有反驳。<br>在网上看了看回家的票。</p>
+<p>还有半个多月时，项目暂停。<br>跟客户提前拜年。<br>回公司整理整理，做好年终总结。<br>年会前，同事说，都年底了，还不带你媳妇来见见世面啊。<br>我边整理Excel，边说，好。</p>
+<p>回到家，果果长大许多。<br>看到我很警觉的叫。<br>我很亲热的蹲下身喊，果果，还记得我不？<br>果果缩回纸箱里。</p>
+<p>家里很干净。<br>每次回来，我都弄得乱七八糟。<br>烟灰乱弹，衣服也扔的到处是。<br>所有的东西都很整洁，连卫生间马桶的角落都很干净。</p>
+<p>我出去买些菜，买了调料。<br>想起《日食记》，想做他那样的菜。<br>记得有一篇是讲做煲仔饭还是盖饭，反正就很精致。</p>
+<p>我也有样学样的买了砂锅，一步一步来。<br>还熬了粥，炒了四五个菜。<br>有几个菜色不好，我重新又切菜炒了一遍。</p>
+<p>做完饭，我用盘子把每个菜都扣起来。<br>砂锅用毛巾包着。<br>粥维持保温状态。</p>
+<p>坐了一会儿觉得无聊。<br>打开电脑。<br>同学在线，我就跟他一起双排玩了几把。<br>他用轮子妈，我用狐狸。<br>想carry几次，但被打野针对。<br>下路一直杀人。<br>以为是下路崩了，一看数据，同学十几个人头，一次没死。<br>我语音说，挺牛啊。看你段位才白银，这水平咔咔的涨啊。<br>同学那边说，我不怎么玩adc，平时打上单位置的。</p>
+<p>记得他刚带我玩儿的时候，一个诺克萨斯之手，一把斧头，咔咔咔的全场砍人。<br>那时佩服的不得了。<br>后来他忙，不怎么玩，我就独自玩。<br>从青铜玩到白银，从白银打到黄金。<br>玩到快一点，同学说不玩了。<br>我说，好，早点休息。</p>
+<p>看了看战绩，买了个不会玩的亚索。<br>挺喜欢亚索的台词。</p>
+<p>且随疾风前行，身后一许流星。<br>吾虽浪迹天涯，却未迷失本心。<br>长路漫漫，唯剑作伴。<br>声音很是性感。</p>
+<p>听了几遍台词便关掉电脑。<br>我给她打电话。</p>
+<p>无人接听。</p>
+<p>我不再拨打。</p>
+<p>盛了一碗粥，自己坐下开吃。<br>菜已经凉了。</p>
+<p>快吃完时，听到钥匙转动的声音。<br>回来了？<br>呀，你回来了！也不告诉我一声，说好我去接你的嘛。<br>我帮她接过包，取下围巾，拍拍身上残余的雪花。<br>吃饭没？</p>
+<p>吃过了。她走到跟前抱着我。</p>
+<p>哦，我想着你会回来，就做了好多菜。<br>是吗？<br>她很开心的走向餐桌。<br>哇，炒这么多啊。</p>
+<p>我说，还有。<br>拿出砂锅，还好，温热。<br>打开砂锅，青菜绿，鸡蛋黄，牛肉红，豆腐白，香菇褐。<br>呀，你做的啊？<br>嗯。<br>不是买的吧？<br>你看，择菜剩的都在那儿呐。<br>她走到水池看去，牛肉还剩大块儿没切。</p>
+<p>你给我打电话说一声嘛，我就赶回来。让你等很久吧。<br>我笑笑，拉着她坐下，把勺子筷子递给她说，没多久。尝尝哥的手艺。<br>她夹一筷牛肉，使劲儿嚼啊嚼，笑得眼睛都眯起来。<br>来，尝尝你的牛肉，比口香糖还耐嚼。</p>
+<p>每样菜都尝了几口，转过身欢喜的说，好吃。<br>那你每天都回家，我天天做。<br>真的吗？<br>嗯。公司放假了，也没什么事。<br>她搂着我的脖子说，你不会出什么事儿了吧？<br>我说，瞎扯什么呢，我这么老实巴交怎么会有事。<br>那就好。看你今天不正常，我心里还嘀咕呢。</p>
+<p>我笑笑，难得做个好男人，你还不习惯了还。<br>是啊。她仰着脸笑得傻傻的。</p>
+<p>我收拾厨房，她喂果果。<br>我一边洗碗一边说，这小家伙都不认识我，还冲我叫。<br>哈哈，你好久不回来，人生啊。</p>
+<p>躺在床上，我问她，过年你回家吗？<br>我哪有家啊。<br>你舅家啊。<br>我不想去，在别人家住的感觉很不好。<br>那你不也在我家住吗？<br>不一样，在你这儿我有自己家的感觉，我不会提心吊胆小心翼翼，做每件事都害怕有一双眼睛在背后看着我。</p>
+<p>睡下没多会儿，她凑我耳边问，你谈过几个对象啊？<br>我数数啊。高中两个，一个不算，大学两个，毕业后认识了四五个，十个左右吧。<br>真的——吗？她拖着音。<br>我说，是啊，我还少说几个呢。<br>不是四个？<br>我楞了一下。<br>你怎么知道是四个？<br>我还知道你初恋呢，你们谈了三年，分手好伤心啊。</p>
+<p>哦，哦，我知道了，你登我QQ了，看我日志。<br>我还看你跟××在他家爬山。我前几天也去爬了。<br>我擦，不会吧，你去我老家了？<br>对啊。<br>你都没去拜见下我爸妈啊？<br>我不知道你家在哪儿啊，知道我肯定也会去看看的。</p>
+<p>你还知道我什么。<br>你大学都去南京，上海，广州，云南考察啊，你们去水库毕业旅行啊，毕业论文被你们组长整的要死。有一个姑娘好喜欢你，从那么远的地方来看你，给你带好吃的。<br>你连微博都看了啊。</p>
+<p>我抱着她说，别做这种傻事儿了。<br>你太投入了，当初不是说不要认真。<br>我不会影响你啊，你如果找到女朋友，我会离开你的。</p>
+<p>我鼻子有些酸酸的。<br>我转过脸，点根烟。</p>
+<p>她躺在我胸前画圈圈。<br>你累吗？<br>你想了啊？<br>她坏坏的笑着。<br>我一件一件脱她的衣服。<br>她像木偶一样，任由我摆动。<br>脱毛衣时，看到肩膀处有个烟洞。<br>她说，是别人不小心烫到。<br>我说，过几天我们公司年会，你要去吗？<br>人很多吧。她转过头，小心翼翼的问道，声音很低，好像犯错一样。<br>没事，我们公司好多都结婚了的。<br>我怕让你出丑。<br>没事。</p>
+<p>脱文胸时，背后的锁扣好难开。<br>她背过手，轻轻一按，吊带就搭落在两遍。<br>好笨啊你。<br>说明我没经验啊。<br>哼，你跟你初恋都做了好多次，还在山上做过。<br>我擦，这你都知道。回头赶紧删掉。<br>没用的，我都保存了。</p>
+<p>我日。<br>说着，我扶着她轻轻躺下。<br>一手抱着，一手脱去她的下衣。<br>没有太多的花哨，没有太多的温存。<br>进入的那一瞬，她轻轻哼了一声。<br>还是那样温热。</p>
+<p>第二次时，她用力的抱着我，嘴里轻哼，抱紧我。<br>我没敢太用力，她柔弱的身子显得好小。<br>不知多久，我已经没有力气，趴在她身上说，不做了。<br>她点点头，擦擦我额头的汗说，你瘦了，更黑了。<br>我说，你也瘦了，不过更白了。</p>
+<p>嘴好甜啊，她起身亲我一口，又落回床上。<br>我翻身躺下。</p>
+<p>她双手穿过我的手臂环抱着我。<br>身上残留的香水特别清雅。</p>
+<p>我们真的像夫妻一样，没有更多缠绵的话要讲。<br>就是静静的看着对方。</p>
+<p>她的眼睛还是那么明亮，鼻子依旧圆润，性感的嘴巴，一些雀斑点在脸上。<br>皮肤那么白皙。<br>你猜我看到什么？<br>我。</p>
+<p>我把我毕生所学的浪漫和温柔都使出来，可惜到处残留影视的斑驳。<br>不免拙劣，终究可笑。<br>年前的那段时日，我像一个垂死之人的归光返照，极尽缱绻，使罢温柔。</p>
+<p>过年的冲击，让专卖店，专柜都摆出discount的姿态。<br>我依旧买不起，只能在C&amp;A、H&amp;M看看，优衣库，杰克琼斯叫的震天响，每个季节我都没见过什么特好的款式，还特么死贵。<br>倒是罗宾汉的衣服我买了不少。<br>逛热风的时候，看到MD跟ONLY，我犹豫两次最后进了ONLY。<br>导购热情的资讯我要选购的类型，颜色，款式。</p>
+<p>我想给她挑一款毛衣。<br>可是我不知道多大。<br>我想打电话问。导购及时拦住说，你打电话过去她肯定就不告诉你了，也不会让你买的。女孩儿都喜欢你卖给他，你这么直接她怎么好意思呢。</p>
+<p>导购推荐一款很漂亮的毛衣，没有花色，没有装饰，就是很普通很普通，但特别精致。</p>
+<p>走出来，我感觉所有的情侣都奇怪的看着我。<br>好像男生进女装店很奇怪。<br>我就像一个小怪兽，手里拿着刀剑，望着人来人往如炬目光。<br>那一刻，我极度的无助。<br>对她一丝的爱是我唯一的护甲，最后的防御。心里默念无所谓无所谓，可心里到脚底都在发虚。</p>
+<p>公司的年会像往常一样，老酒店，老包间，大家吃吃喝喝。<br>抽几个1000块的现金大奖，说几番感谢致辞，谈一谈来年愿景。</p>
+<p>大家对她都很客气。<br>几个小孩儿老往她跟前凑。<br>同事挑逗一个三四岁的小男孩儿说，让阿姨嫁给你好不好？<br>小男孩儿呆萌的点点头。<br>一桌人哄的笑翻天，小孩儿的妈妈也乐得满脸通红。<br>那你亲阿姨一口，阿姨就同意了。<br>她蹲下身子，小孩儿凑到跟前亲了一口。亲罢小孩儿拉着她的手扭头看着妈妈。<br>大家笑得更厉害。<br>同事说，快，拉着阿姨走，别让这个坏叔叔看到。<br>小孩儿拉着她走到妈妈跟前。<br>大家已经笑得乐不可支，周围的几桌喝的正海的也停下，看着这搞笑的一幕。</p>
+<p>玩得差不多，大家就散了。<br>毕竟很多人有家室，不能跟往常一般KTV接着嗨。</p>
+<p>走的时候，小男孩儿还依依不舍的向她伸手。<br>她走过去，亲了她一口说，长大了记得来看阿姨啊。<br>同事跟孩子妈妈说几句祝福话，便挥手告别。<br>大家都酒足饭饱，做着看似诚恳貌似不舍的离别。</p>
+<p>回去的路上，街道很安静。出租车都少了许多。<br>我把围巾围住她的脸，只露出眼睛。<br>她像一只木乃伊一样晃晃悠悠的走。<br>你看我像不像阿木木。<br>她说着甩出围巾，一蹦一跳向我跑来。</p>
+<p>老妹儿啊，我不在的这一个月你学的还挺多啊。<br>那是啊，咔咔的啊。她粗着嗓子，也学着东北腔。</p>
+<p>都特么谁教你滴啊，教你不学好哇，我去削他。<br>××啊。你去削啊。</p>
+<p>她说我的名字。<br>我拉着她，踩着雪，走回家。</p>
+<p>还有两天就过年。<br>家里打电话让我买票，还交代说带雅同回家。<br>我说，开哪门子玩笑啊，人家闺女不回家了，你说带回家就带回家啊，你养宠物啊。<br>家里没再说，就说抽时间来看看我们。</p>
+<p>她说，过年要回去啊。<br>我说，是啊老妹儿啊，爹妈催的紧啊，着急忙慌的抱孙子，我的赶紧找个媳妇儿啊。<br>谁是你老妹儿啊，叫媳妇儿。<br>我呵呵笑着，她一巴掌拍在我脑袋上说，给老娘笑啥呐，赶紧滴。<br>我喊，媳妇儿啊。<br>唉，没看老娘忙着呐，干哈啊。<br>过年我回家，你可要保重身体啊。<br>嗯呐。</p>
+<p>在玩笑中，告诉她我要回家过年了。<br>那晚她哭了很久。虽说是很小声的抽泣。<br>果果听到，哼唧哼唧的跑来，<br>她伸手轻轻抚着果果。<br>我说，狗都比我强。</p>
+<p>走的时候，她坚持要送我。<br>我拖着行李箱。<br>公交车上人很少，高铁站平时人很多的。<br>一路上她都没有说话。<br>我看着她粉红色的帽子说，谁给买的，这么漂亮？<br>她无力般的靠在我肩头。<br>公交车一路一路的报站，窗外熟悉的景色都被大雪覆盖，让我都不知道哪儿是哪儿。</p>
+<p>候车时，她说，你什么时候回来啊？<br>我说，看情况吧。公司规定是初七回来，我一般都来的早。在家也没事，还天天听唠叨。<br>家里冷不冷啊？<br>肯定啊，三米多的层高，就一个旧空调。我一般都是睡到晚饭才起床，吃完接着睡。睡个两三天，差不多就就来了。</p>
+<p>猪啊你。<br>你见过吃了二十多年还不到150斤的猪吗？<br>她笑笑说，早点回来。</p>
+<p>殊不知此去一别，再也没有后来。</p>
+<p>回到家中，一切都是那么熟悉。<br>爸妈让我跟她打电话，虽说看不到人，但可以视频通话。</p>
+<p>我擦，两口子都快六十的人，竟然还知道视频通话。还特意开通无线网。<br>晚上，我开通视频通话，她特别的高兴。<br>她很诧异的表情，转念还是很高兴。<br>爸妈看起来尤为高兴。<br>那一刻，我狠下心，决定不再犹犹豫豫。</p>
+<p>只是几句寒暄家常，爸妈还说带他们向她爸妈问好。<br>我的心揪成一团。</p>
+<p>父母无论如何是不能再骗了。<br>任我铁石心肠，终究还是凡人一个。</p>
+<p>晚上她打电话，老爸还特意给我买包烟说，甭出去了，给人家好好聊。<br>看着爸的背影，嘴里叨叨，那么好的姑娘。</p>
+<p>我，我，我跟我爸妈讲了。说出这句谎言，心里纷乱拉杂。<br>郁积在心中的不忍终究被我慌乱不已的吐出。<br>仿佛听见她心碎的声音，拉拉杂杂散落一地。<br>这一句话仿佛是最后的宣判，彻底让她死心。即便是单方面的。</p>
+<p>那边很安静，只有果果的叫声。<br>我不知道要说些什么，该说些什么，还能说什么。<br>原本准备许多狠心肠的话，可到嘴边却成了无助的沉默。<br>那边一直都无话。长时间沉寂，甚至能听见信号发出的脉冲声音。</p>
+<p>过了很久很久，举电话的手有些发麻，手也冻得没知觉。<br>终于传来嘤嘤的哭声，一口气拖好久，终于喷发出无奈的泪水。<br>哭出来会好受点。我的劝说无情而又残忍。<br>用一把剑刺穿她对我没有任何防备的护甲，便有不甘却也奈何。</p>
+<p>我一直没挂电话，我做不到果断的冷酷，她也没有，她不放下无奈的温存。<br>其实都希望对方说点什么，可又知道改变不了什么。</p>
+<p>说与不说又有何意义？<br>只不过是希望彼此的关怀能够让压垮的骆驼再稍微喘口气。</p>
+<p>电量快要耗尽，在连续提示几次后，终于忍无可忍的关闭。</p>
+<p>我想，除了初恋那次被甩，我应该好久没有这么痛心过。<br>只有体会过的人能够了解。<br>那种痛楚中透出极大的无力感和不安，满心的怀念却无计可施。<br>可终究和初恋不同。<br>那时求得不得。<br>此时，伸手可得。</p>
+<p>每个人都要成长，每一次试错，都要付出惨痛的代价。<br>所以，前人告诉我，要为人诚实，要厚道真挚，我们不伤害别人，别人自不会为难你。<br>可惜，前半部分做不好，后半部分没做到。</p>
+<p>过年给她发短信拜年，她回了个谢谢。<br>我突然像抓到救命稻草一般，找到给她打电话的理由。<br>我白天打，晚上打，吃饭打，如厕打，醒来打。</p>
+<p>移动系统的女音沉静冷漠的告诉我，您拨打的电话已关机，请稍后再拨。</p>
+<p>她不会想不开吧？我擦，我不会担责任吧。</p>
+<p>看看，连特么想到坏处都害怕自己。</p>
+<p>等到假日结束，心伤难愈，却无大碍。<br>这一次，我们都元气大伤。<br>我靠着自私恢复，她靠着爱恋自伤。<br>于她，最残忍的莫过于，一切都在于知晓，她偏要迎着残酷的结果走下去。</p>
+<p>就像LOL，明知团不过对面，可对方拿大龙，去不去都要争取一番。无奈一招失误，落得个身死团灭。对面夺龙杀人拿塔推基地。</p>
+<p>我没那么残忍，只是取走收益buff就匆匆溜走。<br>并肩作战的日子里她默默无语，本以为会有一份结果，可我头也不回的扔给她一个残酷的现实。</p>
+<p>回到家，她的东西全都不见，我找啊找，想找到一根头发，一个记忆，哪怕一丝残存的余香。可连个渣渣都没有。<br>屋里干净的就像她不曾住过，也不曾来过。</p>
+<p>钥匙和门禁卡挂在墙壁上，刺得我心口疼。</p>
+<p>我的东西完好无损的放在该放的位置，她的东西也完完全全的撤离。</p>
+<p>我像一个接防的人，望着空荡荡的屋子。</p>
+<p>咚咚咚，很轻盈的敲门声。</p>
+<p>我像找到水的鱼儿一样，大步跨去开门。<br>我想她怎么也得见我最后一面吧。<br>开门那一刻手微微发抖。</p>
+<p>可惜不是。<br>是平时打招呼的邻居。<br>我顺着她的绳子看下去，是果果。</p>
+<p>小时那么可爱的狗，长大真特么的丑。<br>我嫌弃的接过来，忙致谢告别。</p>
+<p>可能吃饱无事，它老实的趴在地上。</p>
+<p>我收拾好东西，把衣服洗洗，做做饭。好好休整休整，明天要上班了。<br>躺在床上想，早晚要了断，长痛不如短痛。<br>你不能骗爸妈啊。<br>你要是爱她，跟她什么职业没关系啊。<br>你傻逼啊，特么那么多账，你挣的钱还账要还到啥时候？</p>
+<p>我起身抽根烟，自言自语说，算了，找个时间跟爸妈说，分了。<br>为啥分啦啊？又是你小子惹人家生气啊？<br>分啦就分了啦，那那么多事儿啊。人家看不上我行了吧，人家找到好的啦行吧。</p>
+<p>我自己左右互搏的对话。</p>
+<p>现实的残酷，很是对老人有杀伤力。<br>他们走过那么多路，看过那么多人，见过那么多事儿，知道有些事不用多讲，一个钱字难万人。</p>
+<p>上班一天，大家都松松垮垮，老板也理解。<br>回到家，打开门。<br>怒火中烧。<br>一股臭气，门口的地板上两三坨粪便和一滩尿渍。<br>我忍住恶心，用了大半卷纸也才清理掉一半。<br>挤压许久的哀伤跟无奈，夹杂着火气。<br>愤怒之余，按着它的头，怒吼道，让你他妈的乱拉，让你他妈的乱拉，你给我吃了。<br>果果奋力挣扎，双腿往后扒拉。<br>它逾挣扎我逾生气。<br>狠力在它头上拍了几下，不解恨，狠狠的踹了一脚。<br>它尖叫着钻到床底下。</p>
+<p>晚上吃饭时，突然想起她，温柔的倩影浮在脑海。<br>于心不忍，就煮几个鸡蛋捣碎喂它。<br>一直躲在床底下的果果瑟瑟发抖。<br>床底太黑，我用手机照明，想哄它出来。<br>不照则已，一照又是一肚火气。<br>特么的尿了好几片，全都是湿的。<br>我一边骂一边把床上的被子被单挪开，把床掀开。我一把拽住它的腿，使劲儿朝地上摔了一摔。不解气，我朝它屁股一直踹。<br>它就一直叫，我则更加恼火。<br>直到它意识到不能再叫，我才停下来。</p>
+<p>半夜睡梦中听到哼唧哼唧的叫声，吵到我。<br>我打开灯，循着声音发现是果果一直在叫。<br>它侧躺在地上，一只眼睛睁开看到是我，身子猛地一抖，马上不再哼哼。</p>
+<p>我想我那时应该是凶神恶煞般的存在。<br>早上，看到它趴在门口。<br>我想起可能是排泄，我打开门。<br>它一瘸一拐的走出去，原本几步路它走了好久。<br>那个背影好荒凉。<br>我也心灰意冷，那么丑的狗，养它终究无用。<br>还要办狗证，麻烦。<br>我抱起它，说，果果，妈妈走了，不要你了。我也养不了你啊。<br>我走楼梯，下了有五六层，把它放在垃圾桶旁边。<br>它无助的躺在垃圾桶旁边，一边哼哼一边望着我。<br>它的眼神里，充满了乞怜跟无助。<br>尾巴无力孱弱的拖在地上晃动，像是在讨好，又像是在告别。</p>
+<p>妈蛋的，老天你特么劈死我吧。我畜生不如。我不入地狱，谁入地狱。下辈子爱咋咋地，这辈子我特么就想无忧无虑的活着，不要再给我添麻烦了好不好。</p>
+<p>我站在楼道里喊了一嗓子。</p>
+<p>感觉把所有的不痛快统统排遣出去。</p>
+<p>时间就这么一点一点的往前走，走过二月，走过三月，走过四月，一直到夏日来临。</p>
+<p>几乎每天我都会给她打一次电话。总是能打通，但从来没人接。<br>慢慢的，减少为几天打一次，一两周打一次，到后来，一个月打一次。<br>对她的思念仿佛通过电话就可以传递给她，让她知道，我还在默默的想念她。</p>
+<p>每到节假日，我都会给她第一个发短信。我卡住零时零分。<br>我比所有的客服短信还要准时。</p>
+<p>慢慢的，短信也很少发。<br>只在想起时，发送一声问候。<br>最近怎么样？注意安全，照顾好自己。</p>
+<p>再后来，很久不再发。<br>有一天，看到一句话，我给她发过去，此后再也没有发过短信。</p>
+<p>近来寒暑不常，希自珍重。</p>
+<p>曾在孤独寂寞的夜，想过跟她好好在一起，抛却世俗杂念，就是单纯的努力相爱。<br>但慢慢的被睡意侵蚀。</p>
+<p>直到我完全愈合，我又恢复往昔的油嘴滑舌，能没心没肺的在姑娘面前谈天阔地。</p>
+<p>很久很久，翻看微信突然想起。<br>停更在年前送我的那次别离。<br>照片中，她笑得神采飞扬，青春四溢。<br>亲爱的，等你回来哈。<br>泪水夺目而下。</p>
+<p>不知有多久，心底渐渐沉寂，快要忘掉她。</p>
+<p>偶尔在大街上，人群中，看到一个身影，听到一声叫喊，跟她的音很像，跟她的身影很像，跟她的名字发音很像，我都能身子一颤，伸长脖子在四下找寻。</p>
+<p>只可惜，现实不是影视，能让你在下个街口相遇。<br>彼此相视一笑，再牵起那双柔软的手，任你浪迹四方。</p>
+<p>我知道，她是狠下心，含着泪离去。<br>我知道。我心里默念。</p>
+<p>放弃那一刻，就再找不到开始的理由。</p>
+<p>——end</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/again.html" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/electronic-wechat-desktop.html" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="五折's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        service@wuzhe.me
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/修修电脑/">修修电脑<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/吃吃喝喝/">吃吃喝喝<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/日常笔记/">日常笔记<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/瞎几把搞/">瞎几把搞<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/磨磨唧唧/">磨磨唧唧<span class="sidebar_archives-count">7</span></a></li><li><a class="sidebar_archives-link" href="/categories/絮絮叨叨/">絮絮叨叨<span class="sidebar_archives-count">22</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/about" title="About">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                About
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">38</span>
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://weibo.com/igokm" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>五折叔的水稻田
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by Hexo</div>
+                <div class="footer-develop-div">Theme - Material</div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>

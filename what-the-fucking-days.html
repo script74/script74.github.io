@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            充实的日子怎么毁掉你的生活 | 
+        
+        五折叔的水稻田
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="五折,五折叔,肖康,流亡青年,工作,充实,生活">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: ;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="五折叔的水稻田">
+    <meta name="msapplication-starturl" content="http://www.wuzhe.me/what-the-fucking-days.html">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="五折叔的水稻田">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://www.wuzhe.me/what-the-fucking-days.html">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="充实的日子怎么毁掉你的生活 | 五折叔的水稻田">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="工作,充实,生活"> 
+
+    
+        <meta property="article:published_time" content="Sun Dec 30 2012 00:00:00 GMT+0800">
+        <meta property="article:modified_time" content="Wed Apr 18 2018 04:43:31 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="http://www.wuzhe.me/what-the-fucking-days.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://www.wuzhe.me/what-the-fucking-days.html",
+    "headline": "充实的日子怎么毁掉你的生活",
+    "datePublished": "Sun Dec 30 2012 00:00:00 GMT+0800",
+    "dateModified": "Wed Apr 18 2018 04:43:31 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "五折",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "欢迎踏足五折叔的水稻田"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "五折叔的水稻田",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",工作,充实,生活五折,五折叔,肖康,流亡青年",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 25 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                充实的日子怎么毁掉你的生活
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>五折</strong>
+        <span>12月 30, 2012</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/工作-充实-生活/">工作,充实,生活</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=充实的日子怎么毁掉你的生活&url=http://www.wuzhe.me/what-the-fucking-days.html&pic=http://www.wuzhe.me/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=五折叔的水稻田&title=充实的日子怎么毁掉你的生活&summary=&pics=http://www.wuzhe.me/img/favicon.png&url=http://www.wuzhe.me/what-the-fucking-days.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>充实的日子，你的奔波在昆明各个大大小小的写字楼，不能稍有懈怠，不能屈服于疲倦。<br>充实的日子，你无法享受慵懒的早晨、闲逛的午后和无所事事的黄昏。<br>充实的日子，你不是生活在生活里，而是狂奔在日程表上填得满当当的逼仄格子中。</p>
+<p>07:00 新的一天，福布斯上没有你的名字</p>
+<p>充实的日子必须从早起开始。<br>你醒来，叼着牙刷打开电脑，锁定在凤凰网——哪怕头脑还不够清醒，你也要从睁眼的第一时间开始，就了解这个世界在发生什么。</p>
+<p>你知道大多数成功人士都有早起跑步的习惯，你正考虑把这项计划纳入日程，现在你唯一向他们表示敬意的方式就是狂奔向公交车站，以充沛的战斗力在关门之前夺取车厢里的一席之位。<br>公交车站是整个昆明你最熟悉的地方，你像蝗虫一般，在每个早晨被吞入，又在每个深夜被吐出。你不必买车，生活在这个城市让你感到最骄傲的事情是：挤公交总比开车更有效率。你争取到更多的时间，尽管每个早晨你赶到办公室，身上总混杂着四五种丰富的体味。<br>你居住在二环外，手机赐予你这漫长的路程以私密空间。你打开新闻订阅，每一条消息都不想错过，你关心全世界的地震、水灾和饥荒，关心这个国家的每一个发言人在什么场合说了什么话，你查看昨天深夜球赛的结果，一个二线小明星的桃色八卦……然后你开始刷微博，背下来几段励志格言，学会了几句俏皮话，知道人们在围观什么热闹，又因为什么正感到愤怒。<br>你沉溺在13亿人，不，甚至更多，你背负着70亿人的烦恼和快乐，好像永远都在事发现场。只要一个半小时，你已经胸有成竹：这世上的一切尽在掌握。</p>
+<p>09:00 电话轰炸，或者QQ轰炸</p>
+<p>充实的日子，盯着电脑屏幕吃早餐。<br>小锅米线、豆浆油条，甚至苦荞粑粑。你有足够的理由将一切能够吞咽的物品当作为你果腹的美味，因为还有紧张的一天等着你战斗，你需要体力需要能量。<br>你顺手给那封大学同学的邀请函回复：“下周我出差，择日再聚！”事实上，你已经有两年没有见过你的大学同学，这是你毕业的第三年。<br>最后，你没忘记却给你的朋友留个言：“伙子，记得晚上约好的一起吃饭！”</p>
+<p>11：30 事事有攻略</p>
+<p>充实的日子，你熟悉生活中的捷径。<br>就像游戏达人沉迷于攻略一样，你在大众点评网的收藏里有超过50家餐厅的名单，你熟悉小西门各家餐厅的地理位置和联系电话，同时在你的大脑收藏夹里有另一份人数更众的列表，你记得某一个客户喜欢日本料理，而另一个则偏爱意大利餐厅。你打电话预约了晚餐时间，指明一定要右走廊的第三个位置，你可不愿意成为这排队国奇迹中的一员，晚上七点还一脸尴尬地磕着发潮的瓜子。<br>这城市比你的家乡更亲切，即便你从未穿梭在它的广场和小巷——衣食住行、吃喝玩乐，有关城市的一切都好好地躺在你的电脑里。你熟悉它们每一行即时更新的信息，胜过熟悉小区楼下的物管和保安——你认为他们那一口流利的方言，并不比外星语易懂多少。<br>然后，你开始做你的午餐攻略。你的个人管理导师告诉你：做一个善于管理时间的人，要从控制自己开始。于是你只能控制你的饮食，你查询各种健康搭配和最新流行，再把附近餐馆的优惠券和特价套餐都比较一番。<br>在等待外卖的时间里，你还有几个攻略需要浏览：时尚达人介绍的名人秋天搭配指南，星座运势建议的人际关系小提醒，科学人士提供的“提高工作效率六大准则”。</p>
+<p>13:00 在线视频里的人生偶像</p>
+<p>充实的日子，和同事共进午餐绝对不是明智的选择。<br>一本叫做《时间管理幸福学》的书中说：“一大群人坐在下午茶餐厅里无所事事地闲磨牙、聊八卦的情况，常让我觉得自己像只无头苍蝇，最后的收获只有口干舌燥而已。”<br>你以此警戒自己。午餐时间的最佳选择是在线视频，当然你从不看那些无聊的恶搞视频或是偷拍录像。<br>你最近青睐的是网络上的公开课，哈佛、耶鲁、剑桥、牛津和麻省理工，一个都不能错过。你听罗伯特·希勒谈房价和理财，听泰勒·本沙-哈尔教你如何变得更幸福，听欧文·辛格如讲讲爱情哲学，免不了再围观一下迈克尔·桑德尔谈一谈“什么是正义”。<br>你最新一个偶像就在网络视频里——在TED上演讲的自闭学者丹尼尔·谭米特，他是两本畅销书作者，据说他一周就能掌握一门语言，可以背诵圆周率小数点后两万多位数字，被称为“人类自豪的天才特例”——你看，这才是符合你标准的：最有用的人。</p>
+<p>15:00 不要在下午三点登录社交网站</p>
+<p>充实的日子，高潮在下午三点。<br>萨特说过：下午三点钟是一天中一个很奇怪的时间，在这个时间开始做一件事总是觉得太早或太晚。<br>在这个最尴尬的时间里，“不要在这个时间登录社交网站”——你的“职场达人准则”是这么说的——“一旦登录微博和人人之类的社交网站，不知不觉就开始刷新画面，不知不觉就写两句，不知不觉就开始聊天。这些‘不知不觉’非常浪费时间。”<br>为了不浪费下午三点，你的一份企划书一直拖到了现在。在敲出第一个字之前，你又搜索了更多的攻略：“PPT演示之道”、“用信息图表说话”、“ 撰写商业计划书的详细步骤”以及“如何说服你的用户、老板或客户”。<br>你浏览更多的帖子，企图解决你在这项工作中遇到的两个麻烦：第一，如何治好拖延症；第二，怎样才能成为一个有创意的人。最后，你还顺便看了看：“不用工作还能挣钱的十大方法。”</p>
+<p>17:15 请保证手机电量充足</p>
+<p>充实的日子，必须保证包里随时装着手机充电器。<br>你要赶在下班前，通过电话来解决一系列麻烦——<br>你向快递公司咨询：“为什么应该在一小时前送到的快递，现在还杳无音信？”接着你得到了有生以来最强有力的客气回答：“十分抱歉，快递员失踪了，我们也联系不上！”<br>你向清洁工阿姨咨询：“为什么我的进口柠檬汁没有了？”她迟疑了50秒，然后问你：“你说的是那瓶洗洁精吗？”在向你反复保证再不犯类似的错误后，你又努力说服她：“最好也不要把高级精油洗脸皂用来洗抹布，好吗？”<br>你向航空公司咨询：“为什么三个月前退订的机票，现在也没收到退款？”“对不起，我们的系统故障，现在正在紧急维修中。”要知道，他们的紧急状态已经持续了三个月。<br>最后，你不得不跟你的投资理财顾问大吵一架：“不要再跟我推荐任何免费午餐了！”<br>你精疲力竭地吞掉一粒金嗓子喉宝，检查这一天还有什么漏掉的事情没有做。你想起来周末的MBA学习班，再次拿起电话去咨询管理经济学考试事宜，赶在手机爆掉之前，你还来得及跟你的驾校老师请一个假。</p>
+<p>19:00 一个司空见惯的饭局</p>
+<p>充实的日子，不会在下班时间选择一辆出租车。<br>你依然坐公交。只要有过一次这样的经历——苦等50分钟时间才看到一辆亮着红灯的空车驶过，再搏斗1小时才能碰到门把手——你就知道选择这种交通工具并非明智之选。事实上，这个城市的出租车司机好似每时每刻都在交班路上，无处不在的师奶团比你的六块腹肌实在要勇猛得多。<br>你预约好的晚餐没有给你带来任何麻烦，只是你有些搞不懂和你共进晚餐的究竟算是朋友还是工作伙伴。你们上一次见面是在某个发布会现场，而这一天最后端上来的大餐是某份合作方案的细节。你忙里偷闲发了短信敲定明天的饭局，这一年你在家吃饭的时间总共不超过三次。<br>你的这位朋友在Say Goodbye的时候搞错了你的名字，却十分有礼貌地问候你家的宠物。事实上为了度过充实的日子，你从未养过任何活物。</p>
+<p>21:21 当你在看电视的时候你看些什么</p>
+<p>充实的日子，看深夜剧不是一种娱乐。<br>你看《红楼梦》，想从中学习企业治理方法；你看《西游记》，认真琢磨团队建设之道；你看《三国演义》，为的是偷师各种战略决策；你看《水浒传》，据说那是最好的领导艺术。所有的清宫戏和谍战剧都是你的职场教科书，你认为：要学几招厚黑学，还是得看大陆电视剧。<br>认真的一天需要放松，你看几集TVB，学会了自我安慰：“做人呐，最重要是开心。”你看几集日剧，目的是要给自己打点鸡血：“我们需要的是活着的意志，朝着夕阳奔跑吧！”当然你还要看几集美剧，为下次和同事聊天争取发言权。<br>自从电视上流行专家以来，你偶尔也看看这个时段的综艺节目，他们致力于帮你对付生活中最大的两个敌人——上司和女人。<br>你很久不看文艺片，十分鄙视韩剧和动画，那些都是浪费时间的玩意。</p>
+<p>23:00 深夜读书方法论</p>
+<p>充实的日子，提前一小时上床，这是你的读书时间。<br>据说精英的年阅读量是300本至500本书籍，阿兰·德波顿同时要看10本书，而乔·昆南可以25本书一起读。为了尽早跻身他们中的一员，你的床头堆满了励志学、成功学和职场圣经。<br>你读大前研一的“OFF学”，他告诉你：“下班后的生活，决定你的竞争力！”你决定像他所说的那样：只花一小时来阅读一本商业书籍，否则就是在谋杀生命。所以当你拿起柳井和正的《一胜九败》来，只苦心钻研优衣库的“23条经营理念”——23条理念，39条原则，47种方法论，这是你最擅长的条目式阅读。<br>最近你在读的是：《高效能人士的七个习惯》、《时间管理圣经——番茄工作法》和《拖延心理学：向与生俱来的行为顽症宣战》。在那之前，为了让读书计划更有效率，你还读了《如何阅读一本书》和《如何谈论你没读过的书》。<br>当然，你还读一点哲学。这和听古典音乐是同一个道理——要是在某个饭局上有人提起亚里士多德或者德彪西，很好，你知道他们在说什么。文学？坚决不碰，这玩意儿没有半点实用价值。</p>
+<p>0:00 养生时间</p>
+<p>充实的日子，以养生结束。<br>据说，在中国每6秒钟就有一人死于车祸，每10秒钟就有一人死于心血管病，每21秒钟就有一人死于中风，每1分钟就有两人死于吸烟引起的疾病，每3分钟就有一人死于胃癌，每12分钟就有一位女性死于乳腺癌……<br>为了向你的健康喝彩，你必须学会养生。你的中医告诉你：“子时入睡、丑时保肝、寅时养肺。”你没听懂，他只好换了一种通俗易懂的方式：“每天在晚上12点就要睡觉，因为从12点到凌晨两点是退黑激素分泌最多，用来帮助身体细胞修复，若是错过这段时间，会导致疲劳到无法恢复。”<br>于是你赶在12点前开完了一个短暂的电话会议，爬上微博道了一声“晚安”，你没忘记从你的年度计划表、月度计划表、每周计划表和每日计划表中抽出一张来，写下第二天的行程安排。<br>明天早上起来，你会发现：福布斯富豪榜上依然没有你的名字。然后你就继续为“充实的日子”而努力，也就这样，既充实而又不浪费一分一秒地毁掉了你的一天。</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/if-you-tired-4.html" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/hello-kunming.html" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="五折's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        service@wuzhe.me
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/修修电脑/">修修电脑<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/吃吃喝喝/">吃吃喝喝<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/日常笔记/">日常笔记<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/瞎几把搞/">瞎几把搞<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/磨磨唧唧/">磨磨唧唧<span class="sidebar_archives-count">7</span></a></li><li><a class="sidebar_archives-link" href="/categories/絮絮叨叨/">絮絮叨叨<span class="sidebar_archives-count">22</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/about" title="About">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                About
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">38</span>
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://weibo.com/igokm" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+    
+    <!-- V2EX -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>五折叔的水稻田
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by Hexo</div>
+                <div class="footer-develop-div">Theme - Material</div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
